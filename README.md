@@ -1,2 +1,2 @@
 # Geconweb
-Gecon Technology
+Gecon Technology Ltd.
