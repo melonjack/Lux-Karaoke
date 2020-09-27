@@ -13,7 +13,6 @@ var app = new Vue({
       ab:'',
       chechedItem: [] ,
     } ,
-  router: routerObj , 
   mounted: function(){
       this.message =  this.getCookie("username")
       if(this.message == "user618") {
