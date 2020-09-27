@@ -1,0 +1,6 @@
+#wapper {float:left; width: 100%; margin-top: 0px; padding: 0px; background-color: #ffffff;}
+#banner {height:80px;font-size: 22px; padding: 10px; background-color:#eed; }
+#main {position:relative;width:1600px; margin:auto; min-height: 720px; background-color:#c2d4de; 
+		text-align:left; margin-top: 0px; }
+#footer {background-color:#5E6472; min-height: 60px; text-align: center; font-size: 20px;
+            color: #FFFAFA; padding-top: 8px; }
