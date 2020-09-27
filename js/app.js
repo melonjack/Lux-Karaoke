@@ -42,7 +42,7 @@ var app = new Vue({
       amp:'',
       a: 0.123  ,
       ab:'',
-      chechedItem: [] ,
+      chechedItem: [] 
     } ,
   mounted: function(){
       this.message =  this.getCookie("username")
