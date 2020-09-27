@@ -1,82 +1,42 @@
 /*******************************************************************************************************************/
-/***********                    Component            of Catalog      June 24 , 2020                          *******/
+/***********                                        New a Vue #App         Sept 27 , 2020                    *******/
 /*******************************************************************************************************************/
- var  catalog = Vue.component('catalog' , 
- { 
-  props: ['bacd'] ,
-  template:  ` <div class="flexb1" >
-      <div v-for='(val, index) in bacd'><div class="imgs"> <img v-bind:src="val.pict" />
-               </div>  
-                <div class="hello">
-                <router-link :to="val.toto">
-                {{val.name}} 
-                </router-link>
-  </div>
-               Model: {{val.model}}</div>
-           
-     </div> `  ,
-  data() {
-      return {  
-          checked: false,
-          dt_s:'',
-          dt_e:'',
-          compon:'/detail/E23008',
-          data:'' 
-      }
+var app = new Vue({
+  el: '#app' ,
+  data: {
+      message: 'Hello New app Vue !!' ,
+      currentView:'Author',
+      logn:true,
+      jsdd:'',
+      amp:'',
+      a: 0.123  ,
+      ab:'',
+      chechedItem: [] ,
     } ,
-    mounted: function(){
-   // this.data = JSON.parse(localStorage.getItem('defult'))
-   // this.dt_s = this.data.startdt
-   // this.dt_e = this.data.enddate
-    //let mx = '&dte=' + this.dt_e 
-    let url = 'http://www.gecontech.com/magento/mgc20/src/php/product/product.php?acc=catlist1' 
-              axios.get(url).then(function(response){
-                      app.ab = response.data.clist ;       console.log(app.ab) ;  }) .catch(function(error){ console.log(error) ;  }) ;
-    console.log(url) ;
-  }
-})
-/*******************************************************************************************************************/
-/***********                             Component   Detail       June 24 , 2020                             *******/
-/*******************************************************************************************************************/
-var  detail = Vue.component('detail' , 
- { 
-  props: ['bacd'] ,
-  template:  ` <div class="flexb2" >
-            <div class="imgs">
-            <div class="det1"> <img v-bind:src="bacd.pict" /> </div>
-            <div class="det2"> {{bacd.brief}}
-                 <div class= "content1"> 
-                      <li v-for='(lt, index) in bacd.description'> {{lt}} </li>
-                    </div>
-             </div>
-            <div class="det3">media33 </div>
-             </div>
-            <div> {{bacd.description}} </div>
-            <div> {{bacd.note}} </div>
-           
-     </div> `  ,
-  data() {
-      return {  
-          checked: false,
-          dt_s:'',
-          dt_e:'',
-          data:'' 
+  router: routerObj , 
+  mounted: function(){
+      this.message =  this.getCookie("username")
+      if(this.message == "user618") {
+          this.logn = false
+      this.currentView = "gnav-bar"    
       }
-    } ,
- created: function(){
-            console.log( this.$route.params.pid ) ; 
-  },
-    mounted: function(){
-    this.data = JSON.parse(localStorage.getItem('defult'))
-    this.dt_s = this.data.startdt
-    this.dt_e = this.data.enddate
-    let mx = this.$route.params.pid 
-    let url = 'http://www.gecontech.com/magento/mgc20/src/php/product/product.php?acc=detail&code=' + mx 
-              axios.get(url).then(function(response){
-                      app.ab = response.data.detail ;
-                      console.log(app.ab) ;    }) .catch(function(error){ console.log(error) ;  }) ;
-    console.log(url) ;
-  }
+           //  console.log(this.currentView)
+     },
+  methods:{
+      getCookie:function (cname) {
+           var name = cname + "=";
+           var ca = document.cookie.split(';');
+           for(var i = 0; i < ca.length; i++) {
+           var c = ca[i];
+           while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+             }
+          if (c.indexOf(name) == 0) {
+                 return c.substring(name.length, c.length);
+              }
+            }
+            return "";
+         }    
+      }  // End of methods
 })
 /***************************************************************************************/
-

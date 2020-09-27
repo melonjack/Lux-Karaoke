@@ -17,9 +17,17 @@ body {
     <p>1971 E 49th Ave </p>
     <p>Vancouver, BC V5P 1T5</p>
    </div>
- Lux Karaoke Located in Vanocuver . We are specialist in AV Product and Karaoke equiptment more than 20 years.<br>
+<div id="app">
+<component :is="currentView"></component>
+{{message}}
+</div><!---      EOF div #app      -->    
+<div style="clear:both "></div>
+ <divclass="mydiv1"> Lux Karaoke Located in Vanocuver . We are specialist in AV Product and Karaoke equiptment more than 20 years.<br>
  We carry a large selection of top quality Home Theatre System and audio video electronics product.
- <br> 
+ </div>div> 
  <div id="footer">   All Right reserved  2020 Gecon Technology Ltd.  </div> 
+<!-- ********************************************************************************************** -->
+<script src="https://unpkg.com/vue@2.6.12/dist/vue.js"></script>    <!--- link a Vue package  -->
+<script src="./js/app.js"></script>
 </body>
 </html>
