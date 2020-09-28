@@ -54,4 +54,41 @@ background:#C00;
 #nav li.sfhover ul { 
 left: auto; 
 } 
--->                
+-->  
+/*****************************************************/
+/***   CSS Flexbox     V3.02  July 4 ,2020        ****/
+/*****************************************************/     
+.flexb1    {display:flex;  flex-wrap: wrap; justify-content: flex-start;
+    background-color:#556B77;}
+.flexb1 > div {
+background-color: #f6f6f6;
+width: 398px;
+margin: 1px;
+text-align: center;
+line-height:80px;
+font-weight: bold;
+font-size: 16px;
+}  
+.flexb1 img { width: 360px; }
+.imgs {min-height:320px; }
+/*****************************************************/     
+.flexb2    {display:flex;  flex-wrap: wrap; justify-content: flex-start;
+    background-color:#556B77; flex-direction: column; }
+.flexb2 > div {
+display:flex;
+justify-content: center;
+background-color: #f6f6f6;
+margin: 1px;
+text-align: center;
+line-height:30px;
+font-weight: bold;
+font-size: 16px;
+}  
+.flexb2 img { width: 500px; }
+.imgs {min-height:320px; }
+.det1{flex:8; background-color: #f6f6e6; }
+.det2{flex:8; background-color: #f6e9f6;  padding-left: 8px; 
+text-align: left; font-size: 20px; }
+.content1 {font-size: 14px; font-weight: normal;margin-top: 10px; border-top: 1px solid #868686;  }       
+.det3{flex:3; color: rgb(216, 111, 13); background-color: #f6f6f6;}
+/*****************************************************/            
