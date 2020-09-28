@@ -6,29 +6,34 @@
 <!--
 body {
   background-color: lightblue;
+  padding:0px;
 }
+*{ margin:0; padding:0;border:0;}
 -->
 </style>
+<script src="https://unpkg.com/vue@2.6.12/dist/vue.js"></script>    <!--- link a Vue package  -->
 <link href=./luxkaraoke2020.css rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="banner" > LUX KARAOKE SHOP <div>
-  <div class="myDiv"> 
-    <p>1971 E 49th Ave </p>
-    <p>Vancouver, BC V5P 1T5</p>
+<div class="myDiv"> 
+    <p>Tel: 604 879-6399 &nbsp;&nbsp;  1971 E 49th Ave , Vancouver, BC V5P 1T5</p>
    </div>
+<div id="banner" > LUX KARAOKE SHOP </div>
+  
 <div id="app">
-  {{ message }}
-<!--  <component :is="currentView"></component>  -->
-
+	<component :is="currentView"></component>
+  <component is="detail"></component>
+ 	{{currentView}}  {{a+12}} 
 </div>  <!---      EOF div #app      -->    
 <div style="clear:both "></div>
  <div class="mydiv1"> Lux Karaoke Located in Vanocuver . We are specialist in AV Product and Karaoke equiptment more than 20 years.<br>
  We carry a large selection of top quality Home Theatre System and audio video electronics product.
  </div> 
- <div id="footer">   All Right reserved  2020 Gecon Technology Ltd.  </div> 
+ <div id="footer">   Copyright &copy; 2016 Gecon Technology Ltd. &nbsp;&nbsp;  All Rights Reserved  </div> 
 <!-- ********************************************************************************************** -->
-<script src="https://unpkg.com/vue@2.6.12/dist/vue.js"></script>    <!--- link a Vue package  -->
-<script src="./js/app.js"></script>
+<script src="./js/navigate.js"> </script>
+<script src="./js/pro-information.js"> </script>
+<script src="./js/app.js"> </script> 
+ 
 </body>
 </html>
