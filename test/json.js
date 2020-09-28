@@ -1,0 +1,1 @@
+fda = '{"info":"fght", "name":"dffght","price":32 }'

@@ -23,7 +23,8 @@ var  detail = Vue.component('detail' ,
           checked: false,
           dt_s:'',
           dt_e:'',
-          pdata:'' 
+          pdata:'' ,
+          pdata2:''
       }
     } ,
  created: function(){
@@ -34,6 +35,8 @@ var  detail = Vue.component('detail' ,
   },
 mounted: function(){
       let mx = this.dt_s 
+      this.pdata2 =  JSON.parse(localStorage.getItem('prodata'))
+      console.log( this.pdata2 )
       
   }
 })
