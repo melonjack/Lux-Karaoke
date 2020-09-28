@@ -16,6 +16,8 @@ var  detail = Vue.component('detail' ,
              </div>
             <div> {{pdata.description}} </div>
             <div> {{pdata.note}} </div>
+            <li v-for='(itm, index) in pdata2'> {{index}} {{itm.info}} </li>
+            {{pdata2[1]}}
            
      </div> `  ,
   data() {
