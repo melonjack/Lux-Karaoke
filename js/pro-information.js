@@ -18,6 +18,14 @@ var  detail = Vue.component('detail' ,
             <div> {{pdata.note}} </div>
             <li v-for='(itm, index) in pdata2'> {{index}} {{itm.info}} </li>
             {{pdata2[1]}}
+            <div class="flexb1" >
+            <div v-for='(val, index) in pdata2'><div class="imgs"> <img v-bind:src="val.img" />
+               </div>  
+                <div class="hello">
+                                {{val.price}} 
+                  </div>
+               Model: {{val.model}}</div>
+               </div>  <!--- End of flex1  -->
            
      </div> `  ,
   data() {

@@ -17,7 +17,6 @@ Vue.component('gnav-bar', {
                         { title:'Login', ul:'#/login',sub:[{name:'Register', url:'#/register'} ,{name:'Log in ', url:'./pre_index.php'}]} 
                       ]  ,
           title: 'Check me' 
-          
-      }
+               }
     }
   })
