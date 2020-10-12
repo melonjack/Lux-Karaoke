@@ -3,6 +3,9 @@ var  Acctrans = Vue.component('Acctrans' ,
   props: ['cab','prod'] ,
   template:  ` <div class="fd310"> 
         {{cno}}  {{title}}
+       
+        <router-link :to="onelg" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;
+        <router-view :pbc="b" :subd="prod"></router-view> 
         </div>  `  ,
   data() {
     return {  
