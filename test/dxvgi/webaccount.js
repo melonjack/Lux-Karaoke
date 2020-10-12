@@ -1,4 +1,4 @@
-var  Account = Vue.component('Account' , 
+var  Acctrans = Vue.component('Acctrans' , 
  { 
   props: ['cab','prod'] ,
   template:  ` <div class="fd310"> 
