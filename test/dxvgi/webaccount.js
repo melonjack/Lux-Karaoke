@@ -22,13 +22,14 @@ var  Acctrans = Vue.component('Acctrans' ,
           dts:'2020-01-01',
           dte:'2020-03-30',
           customer:{},
-          onelg:'',
+          onelg:'component',
           ledger:{}
            }
 },
 mounted: function(){
     this.onelg = '/webaccount/'+'257'+'/atransb' ; 
     this.b = this.$route.params.pid
+    console.log(this.$route.params)
     console.log("Hello 12!")
 }
 }) 
