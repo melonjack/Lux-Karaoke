@@ -4,7 +4,7 @@ var  Acctrans = Vue.component('Acctrans' ,
   template:  ` <div class="fd310"> 
         {{cno}}  {{title}}
        
-        <router-link to="webaccount/257/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;
+        <router-link to="webaccount/257/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;<br> {{onelg}} <br> {{b}}
         <router-view :pbc="b" :subd="prod"></router-view> 
         </div>  `  ,
   data() {
@@ -28,6 +28,7 @@ var  Acctrans = Vue.component('Acctrans' ,
 },
 mounted: function(){
     this.onelg = '/webaccount/'+'257'+'/atransb' ; 
+    this.b = this.$route.params.pid
     console.log("Hello 12!")
 }
 }) 
@@ -40,7 +41,7 @@ var  atransb  = Vue.component('atransb' ,
   template: ` <div class="fd1"> <br>module <br>
     {{ tno}}
           <table  class="account" >
-                    <caption> General Ledger <br>Acoount: {{subd.gt}}</caption>
+                    <caption> General Ledger:  {{b}}  <br>Acoount: {{subd.gt}}</caption>
                       <tr><th>Trans No.</th><th>Date</th><th>Referance</th<th>Debit</th><th>Credit</th><th>Comment</th><th>Balance</th></tr>
                       <tr v-for= "(trn, index ) in subd.oneledg"><td>{{trn.trans_no}} </td><td>{{trn.date}}</td><td>{{trn.referance}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
                         <td>{{trn.comment}}</td><td>{{trn.balance}}</td></tr>
