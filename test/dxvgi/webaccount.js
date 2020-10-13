@@ -26,9 +26,13 @@ var  Acctrans = Vue.component('Acctrans' ,
           ledger:{}
            }
 },
+beforeRouteUpdate(to,from,next) {
+  let val = to.params.pid
+  this.b  = val 
+ },
 mounted: function(){
     this.onelg = '/webaccount/'+'257'+'/atransb' ; 
-    this.b = this.$route.params.pid
+   
     console.log(this.$route.params)
     console.log("Hello 12!")
 }
@@ -39,10 +43,11 @@ mounted: function(){
 var  atransb  = Vue.component('atransb' , 
  { 
   props: ['subd','pbc'] ,
-  template: ` <div class="fd1"> <br>module <br>
+  template: ` <div class="fd1">
+              A General Ledger Record<br>
     {{ tno}}
           <table  class="account" >
-                    <caption> General Ledger:  {{b}}  <br>Acoount: {{subd.gt}}</caption>
+                    <caption> Transation # &nbsp;&nbsp; {{tno}} </caption>
                       <tr><th>Trans No.</th><th>Date</th><th>Referance</th<th>Debit</th><th>Credit</th><th>Comment</th><th>Balance</th></tr>
                       <tr v-for= "(trn, index ) in subd.oneledg"><td>{{trn.trans_no}} </td><td>{{trn.date}}</td><td>{{trn.referance}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
                         <td>{{trn.comment}}</td><td>{{trn.balance}}</td></tr>
@@ -60,9 +65,9 @@ var  atransb  = Vue.component('atransb' ,
               b: 54 
                 }
    },
-mounted: function(){
+  mounted: function(){
       console.log(this.$route.params.pid)
-      this.b = this.$route.params.pid 
+      this.tno = this.$route.params.pid 
       let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + this.tno
       axios.get(url).then(function(response){
                 app.jsdd = response.data ;   
