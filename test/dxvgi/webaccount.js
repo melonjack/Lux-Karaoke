@@ -2,9 +2,8 @@ var  Acctrans = Vue.component('Acctrans' ,
  { 
   props: ['cab','prod'] ,
   template:  ` <div class="fd310"> 
-        {{cno}}  {{title}}
-       
-        <router-link to="webaccount/257/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;<br> {{onelg}} <br> {{b}}
+        {{title}}  &nbsp;&nbsp;&nbsp;&nbsp;
+        <router-link to="webaccount/257/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;<br> <br> {{b}}
         <router-view :pbc="b" :subd="prod"></router-view> 
         </div>  `  ,
   data() {
@@ -13,27 +12,23 @@ var  Acctrans = Vue.component('Acctrans' ,
           checked: false, 
           title: 'General Entries' ,
           tno: 101,
-          cno: 30200,
-          acl:'',
           b: 54 ,
-          ledger22:{},
-          uid:109,
           dt0:'2020-02-25',
           dts:'2020-01-01',
           dte:'2020-03-30',
           customer:{},
-          onelg:'component',
+          lnk:'component',
           ledger:{}
            }
 },
 beforeRouteUpdate(to,from,next) {
-  let val = to.params.pid
+  let val = from.params.pid
   this.b  = val 
+  next();
  },
 mounted: function(){
-    this.onelg = '/webaccount/'+'257'+'/atransb' ; 
-   
-    console.log(this.$route.params)
+    this.lnk = '/webaccount/'+'257'+'/atransb' ; 
+    console.log(this.from.params.pid)
     console.log("Hello 12!")
 }
 }) 
@@ -45,12 +40,11 @@ var  atransb  = Vue.component('atransb' ,
   props: ['subd','pbc'] ,
   template: ` <div class="fd1">
               A General Ledger Record<br>
-    {{ tno}}
-          <table  class="account" >
-                    <caption> Transation # &nbsp;&nbsp; {{tno}} </caption>
-                      <tr><th>Trans No.</th><th>Date</th><th>Referance</th<th>Debit</th><th>Credit</th><th>Comment</th><th>Balance</th></tr>
-                      <tr v-for= "(trn, index ) in subd.oneledg"><td>{{trn.trans_no}} </td><td>{{trn.date}}</td><td>{{trn.referance}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
-                        <td>{{trn.comment}}</td><td>{{trn.balance}}</td></tr>
+             <table  class="account" >
+                    <caption> Transation # &nbsp;&nbsp; {{tno}} &nbsp;&nbsp;  &nbsp;&nbsp; Balance: &nbsp;&nbsp; {{subd.blnc}}</caption>
+                      <tr><th>Trans No.</th><th>Date</th><th>Account no</th><th>Account Name</th><th>Debit</th><th>Credit</th><th>Referance</th><th>Comment</th><th>Balance</th></tr>
+                      <tr v-for= "(trn, index ) in subd.oneledg"><td>{{trn.trans_no}} </td><td>{{trn.date}}</td><td>{{trn.acc_no}}</td><td>{{trn.acc_nm}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
+                      <td>{{trn.referance}}</td><td>{{trn.comment}}</td><td>{{trn.balance}}</td></tr>
                           </table>
     
                     </div>  ` ,
