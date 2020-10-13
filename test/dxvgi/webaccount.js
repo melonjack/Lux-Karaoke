@@ -4,7 +4,7 @@ var  Acctrans = Vue.component('Acctrans' ,
   template:  ` <div class="fd310"> 
         {{cno}}  {{title}}
        
-        <router-link :to="onelg" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;
+        <router-link to="webaccount/257/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;
         <router-view :pbc="b" :subd="prod"></router-view> 
         </div>  `  ,
   data() {
