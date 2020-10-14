@@ -3,7 +3,10 @@ var  Acctrans = Vue.component('Acctrans' ,
   props: ['cab','prod'] ,
   template:  ` <div class="fd310"> 
         {{title}}  &nbsp;&nbsp;&nbsp;&nbsp;
-        <router-link to="webaccount/257/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;<br> <br> {{b}}
+        <router-link to="webaccount/257/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;<br>
+                <i class"fab fa-angellist"></i>
+                <i class="far fa-address-book"></i>     <i class="fas fa-phone-alt">Try</i>    <i class="fas fa-envelope"></i>
+        <br> {{b}}
         <router-view :pbc="b" :subd="prod"></router-view> 
         </div>  `  ,
   data() {
@@ -28,8 +31,7 @@ beforeRouteUpdate(to,from,next) {
  },
 mounted: function(){
     this.lnk = '/webaccount/'+'257'+'/atransb' ; 
-    console.log(this.from.params.pid)
-    console.log("Hello 12!")
+    
 }
 }) 
 /******************************************************************************************************************/
@@ -42,9 +44,9 @@ var  atransb  = Vue.component('atransb' ,
               A General Ledger Record<br>
              <table  class="account" >
                     <caption> Transation # &nbsp;&nbsp; {{tno}} &nbsp;&nbsp;  &nbsp;&nbsp; Balance: &nbsp;&nbsp; {{subd.blnc}}</caption>
-                      <tr><th>Trans No.</th><th>Date</th><th>Account no</th><th>Account Name</th><th>Debit</th><th>Credit</th><th>Referance</th><th>Comment</th><th>Balance</th></tr>
+                      <tr><th>Trans No.</th><th>Date</th><th>Account no</th><th>Account Name</th><th>Debit</th><th>Credit</th><th>Referance</th><th>Comment</th></tr>
                       <tr v-for= "(trn, index ) in subd.oneledg"><td>{{trn.trans_no}} </td><td>{{trn.date}}</td><td>{{trn.acc_no}}</td><td>{{trn.acc_nm}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
-                      <td>{{trn.referance}}</td><td>{{trn.comment}}</td><td>{{trn.balance}}</td></tr>
+                      <td>{{trn.referance}}</td><td>{{trn.comment}}</td></tr>
                           </table>
     
                     </div>  ` ,
