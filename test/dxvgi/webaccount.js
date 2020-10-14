@@ -67,21 +67,29 @@ var  atransb  = Vue.component('atransb' ,
       console.log(this.$route.params.pid)
       this.acclink = this.getrecord()
       this.tno = this.$route.params.pid 
-      let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + this.tno
+      this.loadarow(this.tno)
+     /*** let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + this.tno
       axios.get(url).then(function(response){
                 app.jsdd = response.data ;   
-                console.log(app.jsdd) ;  }) .catch(function(error){ console.log(error) ;  }) ;
-      
+                console.log(app.jsdd) ;  }) .catch(function(error){ console.log(error) ;  }) ;     
+          ***/
      },
   beforeRouteUpdate(to,from,next) {
       let val = to.params.pid
       this.b  = val 
+      this.loadarow(this.b)
       next();
      },
   methods:{
-     getrecord() {
+    getrecord() {
          return "yes"
-     }
+     },
+    loadarow(lno) {
+         let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + lno
+         axios.get(url).then(function(response) {
+                  app.jsdd = response.data ;   
+                  console.log(app.jsdd) ;   }) .catch(function(error){ console.log(error) ;  }) ;   
+    } 
     }
 
 }) 
