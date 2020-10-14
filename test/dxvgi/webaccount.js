@@ -2,9 +2,9 @@ var  Acctrans = Vue.component('Acctrans' ,
  { 
   props: ['cab','prod'] ,
   template:  ` <div class="fd310"> 
-        {{title}}  &nbsp;&nbsp;&nbsp;&nbsp;
-        <router-link to="webaccount/257/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;<br><br><br>
-        <router-link to="webaccount/257/atransb"> <i class="fab fa-angellist">&nbsp;&nbsp; Payment</i> </router-link>
+        {{title}}  &nbsp;&nbsp;&nbsp;&nbsp;<router-link to="/webaccount"> <i class="fas fa-home"></i> </router-link> <br><br>
+        <router-link to="/webaccount/234/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;<br><br><br>
+        <router-link to="/webaccount/152/atransb"> <i class="fab fa-angellist">&nbsp;&nbsp; Payment</i> </router-link>
                 <i class="far fa-address-book"></i>     <i class="fas fa-phone-alt">Try</i>    <i class="fas fa-envelope"></i>
         <br> {{b}}
         <router-view :pbc="b" :subd="prod"></router-view> 
@@ -31,6 +31,8 @@ beforeRouteUpdate(to,from,next) {
  },
 mounted: function(){
     this.lnk = '/webaccount/'+'257'+'/atransb' ; 
+    this.title = this.$route.params.pid
+    console.log(this.$route.params.pid) ;
     
 }
 }) 
