@@ -25,7 +25,7 @@ var  Acctrans = Vue.component('Acctrans' ,
            }
 },
 beforeRouteUpdate(to,from,next) {
-  let val = from.params.pid
+  let val = to.params.pid
   this.b  = val 
   next();
  },
@@ -43,8 +43,8 @@ var  atransb  = Vue.component('atransb' ,
  { 
   props: ['subd','pbc'] ,
   template: ` <div class="fd1">
-              A General Ledger Record<br>
-             <table  class="account" >
+              A General Ledger Record  &nbsp;&nbsp; {{b}} {{acclink}} <br>
+              <table  class="account" >
                     <caption> Transation # &nbsp;&nbsp; {{tno}} &nbsp;&nbsp;  &nbsp;&nbsp; Balance: &nbsp;&nbsp; {{subd.blnc}}</caption>
                       <tr><th>Trans No.</th><th>Date</th><th>Account no</th><th>Account Name</th><th>Debit</th><th>Credit</th><th>Referance</th><th>Comment</th></tr>
                       <tr v-for= "(trn, index ) in subd.oneledg"><td>{{trn.trans_no}} </td><td>{{trn.date}}</td><td>{{trn.acc_no}}</td><td>{{trn.acc_nm}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
@@ -56,7 +56,7 @@ var  atransb  = Vue.component('atransb' ,
       return {  
               tm:  false,
               tno:243,
-              acclink:'',
+              acclink:'33',
               data:'',
               dt_s:'',
               dt_e:'',
@@ -65,13 +65,24 @@ var  atransb  = Vue.component('atransb' ,
    },
   mounted: function(){
       console.log(this.$route.params.pid)
+      this.acclink = this.getrecord()
       this.tno = this.$route.params.pid 
       let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + this.tno
       axios.get(url).then(function(response){
                 app.jsdd = response.data ;   
                 console.log(app.jsdd) ;  }) .catch(function(error){ console.log(error) ;  }) ;
       
+     },
+  beforeRouteUpdate(to,from,next) {
+      let val = to.params.pid
+      this.b  = val 
+      next();
+     },
+  methods:{
+     getrecord() {
+         return "yes"
      }
+    }
 
 }) 
 /****************************************************************************************************************/
