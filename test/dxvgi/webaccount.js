@@ -3,8 +3,8 @@ var  Acctrans = Vue.component('Acctrans' ,
   props: ['cab','prod'] ,
   template:  ` <div class="fd310"> 
         {{title}}  &nbsp;&nbsp;&nbsp;&nbsp;
-        <router-link to="webaccount/257/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;<br>
-                <i class"fab fa-angellist"></i>
+        <router-link to="webaccount/257/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;<br><br><br>
+        <router-link to="webaccount/257/atransb"> <i class="fab fa-angellist">&nbsp;&nbsp; Payment</i> </router-link>
                 <i class="far fa-address-book"></i>     <i class="fas fa-phone-alt">Try</i>    <i class="fas fa-envelope"></i>
         <br> {{b}}
         <router-view :pbc="b" :subd="prod"></router-view> 
