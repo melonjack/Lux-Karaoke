@@ -6,11 +6,11 @@
 /*************************************************************/
 /** CSS for Update or Edit Div      Oct.29 , 2020         ****/
 /*************************************************************/
-div.petty {background-color: cornsilk; }
+div.petty {background-color: cornsilk; padding-left: 200px; }
 div.petty label {font-weight: bold;}
 div.petty input.prinf1{display: block; border: 0px;
            background-color: whitesmoke;
            width: 280x;
            padding: 8px;}
-div.petty table {float:center ; width: 70%;}
-div.petty td {padding: 6px; text-align: left; 35%;}        
+div.petty table {float:center ; width: 50%;}
+div.petty td {padding: 6px; text-align: left; 50%;}        
