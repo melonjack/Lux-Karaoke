@@ -3,3 +3,9 @@
 .fd310 a:link    {color:blue}
 .fd310 a:visited {color:blue}
 .fd310 a:hover {color:green}
+/*************************************************************/
+/** CSS for Update or Edit Div      Oct.29 , 2020         ****/
+/*************************************************************/
+div.petty {background-color: cornsilk; }
+div.petty label {font-weight: bold;}
+div.petty input{ width: 32px;}
