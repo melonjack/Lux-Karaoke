@@ -10,7 +10,7 @@ div.petty {background-color: cornsilk; padding-left: 200px; }
 div.petty label {font-weight: bold;}
 div.petty input.prinf1{display: block; border: 0px;
            background-color: whitesmoke;
-           width: 280x;
-           padding: 8px;}
-div.petty table {float:center ; width: 50%;}
+           width: 300x;
+           padding: 10px;}
+div.petty table {float:center ; width: 50%; margin-left: 100px; background-color: #a8a8a8;}
 div.petty td {padding: 6px; text-align: left; 50%;}        
