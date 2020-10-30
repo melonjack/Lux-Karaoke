@@ -8,4 +8,4 @@
 /*************************************************************/
 div.petty {background-color: cornsilk; }
 div.petty label {font-weight: bold;}
-div.petty input{ width: 32px;}
+div.petty input.prinf1{display: block; border: 0px; background-color: whitesmoke; width: 132px;}
