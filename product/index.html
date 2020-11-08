@@ -14,6 +14,25 @@ body {
 </head>
 <body>
 Hello World !
+<div id="app">
+    <component :is="currentView"></component>
+{{ message }}
+
+</div>
+<script src="./js/navigate.js"> </script>
+<script type="text/javascript">
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!',
+      currentView:'gnav-bar'
+    },
+    created: function(){
+      var currentUrl = window.location.pathname;
+      console.log(currentUrl);
+    }
+  })
+</script>
 
 </body>
 </html>
