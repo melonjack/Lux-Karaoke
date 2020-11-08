@@ -9,7 +9,7 @@ Vue.component('gnav-bar', {
       return { 
           checked: false, 
           links: [
-                        { title:'Home', ul:'./',sub:[{name:'Amperifier', url:'#/Amperifier'} ,
+                        { title:'Home', ul:'http://www.luxkaraokeshop.com',sub:[{name:'Amperifier', url:'#/Amperifier'} ,
                                                      {name:'Microphone', url:'#/Microphone'} ,
                                                      {name:'Speaker', url:'#/Speaker'}
                                                          ]},
