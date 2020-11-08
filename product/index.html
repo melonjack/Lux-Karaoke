@@ -31,10 +31,10 @@ Hello World !
     created: function(){
       var currentUrl = window.location.href;
       var url_string = "http://www.example.com/t.html?a=1&b=3&c=m2-m3-m4-m5";
-      var url = new URL(url_string);
-       var c = url.searchParams.get("c");
-       console.log(c);
-      console.log(this.$route)
+      var url = new URL(currentUrl);
+      var c = url.searchParams.get("c");
+      console.log(c);
+      this.message = "Ptcode = " + c
       console.log(currentUrl);
     }
   })
