@@ -13,7 +13,7 @@ Vue.component('gnav-bar', {
                                                      {name:'Microphone', url:'#/Microphone'} ,
                                                      {name:'Speaker', url:'#/Speaker'}
                                                          ]},
-                        { title:'Products', ul:'#/products', sub:[{name:'Product List', url:'#/productlist'},{name:'Catalog', url:'#/catalog'}   ]} ,
+                        { title:'Product', ul:'./product', sub:[{name:'Product List', url:'#/productlist'},{name:'Catalog', url:'#/catalog'}   ]} ,
                         { title:'Login', ul:'#/login',sub:[{name:'Register', url:'#/register'} ,{name:'Log in ', url:'./pre_index.php'}]} 
                       ]  ,
           title: 'Check me' 
