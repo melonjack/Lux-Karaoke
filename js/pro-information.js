@@ -17,29 +17,21 @@ var  detail = Vue.component('detail' ,
            {{bacd.brief}} <br>
            In Stock
            </div> 
-    </div>  
+    </div>  <!--- End of flex-main  -->
     {{bacd}} 
-            <div class="imgs">
-            <div class="det1"> <img v-bind:src="pdata.pict" /> </div>
-            <div class="det2"> {{pdata.brief}}
-                 <div class= "content1"> 
-                      <li v-for='(lt, index) in pdata.description'> {{lt}} </li>
-                    </div>
-             </div>
-            <div class="det3">In Stock <br> Call for Price </div>
-             </div>
-            <div> {{pdata.description}} </div>
-            <div> {{pdata.note}} </div>
-            <li v-for='(itm, index) in pdata2'> {{index}} {{itm.info}} </li>
-            {{pdata2[1]}}
-            <div class="flexb1" >
-            <div v-for='(val, index) in pdata2'><div class="imgs"> <img v-bind:src="val.img" />
-               </div>  
-                <div class="hello">
-                                {{val.price}} 
-                  </div>
-               Model: {{val.model}}</div>
-               </div>  <!--- End of flex1  -->
+        <div class="flex-main">
+          <div class="imgs">
+           Hello here
+          </div>
+         <div class="feature">
+          {{bacd.brief}}
+          </div>
+         <div class="buy-act">
+          media33<br>
+          {{bacd.brief}} <br>
+           In Stock
+         </div> 
+</div>  <!--- End of flex-main  -->
            
      </div> `  ,
   data() {
