@@ -7,4 +7,5 @@
 #nav { float:right;  margin-right: 216px; line-height: 36px;
         list-style-type: none;   } 
 #nav  li {float: left; list-style: none;} 
-#nav li a {}       
+#nav li a {color: aliceblue;}  
+#nav li ul {display:block;} 
