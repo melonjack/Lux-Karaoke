@@ -47,7 +47,7 @@ mounted: function(){
 /************************************************************************************************************************/
 /***********                             Component   Product ListItem      Nov.9 2020   Michael  Zhou             *******/
 /************************************************************************************************************************/
-var  Catalog = Vue.component('listitem' , 
+var  listitem = Vue.component('listitem' , 
  { 
   props: ['prodata','index'] ,
   template: `<div class="listitem">
