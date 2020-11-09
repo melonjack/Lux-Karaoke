@@ -24,7 +24,7 @@
 /******************************************************************************/
 /*****           Product Main flex Div                                   ******/
 /******************************************************************************/
-.flex-main { display:flex;  flex-wrap: wrap; justify-content: flex-start; }
+.flex-main { display:flex; width: 100%; margin: 0px; 8px;  flex-wrap: wrap; justify-content: flex-start; }
 .img {min-width: 200px; minbackground-color: #fdfdfd; }
 .feature {min-width: 200px; min-height: 200px; background-color: #fdfdfd; }
 .buy-act {min-width: 200px; min-height: 200px;  background-color: #fdfdfd; }
