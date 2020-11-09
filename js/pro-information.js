@@ -14,24 +14,11 @@ var  detail = Vue.component('detail' ,
             </div>
            <div class="buy-act">
            media33<br>
-           {{bacd.brief}} <br>
+           {{bacd.brief}} <br><i class="fa fa-th"></i><i class="fa fa-address-book"></i>
            In Stock
            </div> 
     </div>  <!--- End of flex-main  -->
     {{bacd}} 
-        <div class="flex-main">
-          <div class="imgs">
-           Hello here
-          </div>
-         <div class="feature">
-          {{bacd.brief}}
-          </div>
-         <div class="buy-act">
-          media33<br>
-          {{bacd.brief}} <br>
-           In Stock
-         </div> 
-</div>  <!--- End of flex-main  -->
            
      </div> `  ,
   data() {
