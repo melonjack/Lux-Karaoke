@@ -5,7 +5,7 @@ var app = new Vue({
   el: '#app' ,
   data: {
       message: 'Hello New app Vue !!' ,
-      currentView:'listitem',
+      currentView:'Catalog',
       logn:true,
       jsdd:'',
       amp:'',
@@ -15,6 +15,7 @@ var app = new Vue({
     } ,
     mounted: function(){
     console.log("First")
+    console.log(this.currentView)
     },
   methods:{
       getCookie:function (cname) {
