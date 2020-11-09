@@ -17,12 +17,13 @@ body {
 <body>
 Hello World !
 <div class="myDiv"> 
-    <p>Tel: 604 879-6399 &nbsp;&nbsp;  1971 E 49th Ave , Vancouver, BC V5P 1T5</p>
+    <p><i class="fa fa-phone-alt"></i>&nbsp; 604 879-6399 &nbsp;&nbsp;  1971 E 49th Ave , Vancouver, BC V5P 1T5&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-envelope"></i>lux@luxkaraokeshop.com</p>
    </div>
-<div class="header" >LUX KARAOKE SHOP <i class="fa fa-address-book"></i><i class="fa fa-phone-alt"></i><br>
-      <i class="fa fa-th"></i><i class="fa fa-envelope"></i> </div>
+<div class="header" >LUX KARAOKE SHOP <i class="fa fa-address-book"></i><br>
+      </div>
 <div id="app">
     <component :is="currentView"></component>
+    <i class="fa fa-th"></i>
 {{ message }}
 
 </div>
@@ -33,7 +34,8 @@ Hello World !
     el: '#app',
     data: {
       message: 'Hello Vue!',
-      currentView:'gnav-bar'
+      currentView:'gnav-bar',
+      jssn:{}
     },
     created: function(){
       var currentUrl = window.location.href;
@@ -43,7 +45,18 @@ Hello World !
       console.log(c);
       this.message = "Ptcode = " + c
       console.log(currentUrl);
-    }
+      const options = {}
+          this.getApi(options)
+    },
+    methods:{
+            getApi:function (options) {
+                fetch('../test/jsn.json').then((response) => response.text()).then((data) => {
+                               this.jssn  = JSON.parse(data) ;
+                                console.log(this.jssn) ;
+                       }).catch((err) => {console.log(err); });
+                  return "OK"               
+          }
+        }  
   })
 </script>
 
