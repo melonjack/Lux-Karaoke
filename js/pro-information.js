@@ -51,6 +51,7 @@ var  Catalog = Vue.component('listitem' ,
  { 
   props: ['prodata','index'] ,
   template: `<div class="listitem">
+    bgfgghk
                <div class="imgs">
                 <a href="#" > <img :src="url + prodata.image"  width="340" ></a>
                </div>
