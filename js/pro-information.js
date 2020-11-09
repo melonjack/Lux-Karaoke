@@ -5,6 +5,7 @@ var  detail = Vue.component('detail' ,
  { 
   props: ['bacd'] ,
   template:  ` <div class="flexb2" >
+  {{bacd}}
             <div class="imgs">
             <div class="det1"> <img v-bind:src="pdata.pict" /> </div>
             <div class="det2"> {{pdata.brief}}
