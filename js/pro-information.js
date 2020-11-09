@@ -44,4 +44,35 @@ mounted: function(){
       
   }
 })
+/************************************************************************************************************************/
+/***********                             Component   Product ListItem      Nov.9 2020   Michael  Zhou             *******/
+/************************************************************************************************************************/
+var  Catalog = Vue.component('listitem' , 
+ { 
+  props: ['prodata','index'] ,
+  template: `<div class="listitem">
+               <div class="imgs">
+                <a href="#" > <img :src="url + prodata.image"  width="340" ></a>
+               </div>
+              <div class="brief">
+                 <a href="./#" >{{prodata.brief}}</a> <hr> <span> product code: {{prodata.ptcode}} </span>
+               </div>
+           </div> `,
+  data() {
+      return {  
+          checked: false,
+          dt_s:'',
+          dt_e:'',
+          pdata:'' ,
+          url: 'https://mzhou2015.github.io/gecon_pub/src/vxdagi/image/',
+          pdata2:''
+      }
+    } ,
+ created: function(){
+      
+  },
+mounted: function(){
+    
+   }
+})
 /***************************************************************************************/

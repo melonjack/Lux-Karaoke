@@ -5,7 +5,7 @@ var app = new Vue({
   el: '#app' ,
   data: {
       message: 'Hello New app Vue !!' ,
-      currentView:'gnav-bar',
+      currentView:'listitem',
       logn:true,
       jsdd:'',
       amp:'',
