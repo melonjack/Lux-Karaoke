@@ -25,7 +25,7 @@
 /*****           Product Main flex Div                                   ******/
 /******************************************************************************/
 .flexb2{background-color: indigo; padding: 0px 10px; }
-.flex-main { display:flex; width: 100%; padding: 6px;background-color: gold;  flex-wrap: nowrap; justify-content: flex-start; }
+.flex-main { display:flex; width: 90%; padding: 6px;background-color: gold;  flex-wrap: nowrap; justify-content: flex-start; }
 .imgs {min-width: 460px;text-align: center; margin-right: 6px; background-color: #fdfdfd; flex:8 ;}
 .feature {min-width: 300px; min-height: 200px; margin-right: 6px; background-color: #35fdfd;font-size: 20px; flex:8; }
 .buy-act {min-width: 200px; min-height: 200px;  background-color: #fdfdfd; flex:3 ; }
