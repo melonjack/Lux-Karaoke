@@ -15,7 +15,7 @@ var app = new Vue({
     } ,
     mounted: function(){
     console.log("First")
-    }
+    },
   methods:{
       getCookie:function (cname) {
            var name = cname + "=";
