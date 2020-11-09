@@ -13,6 +13,9 @@ var  detail = Vue.component('detail' ,
           {{bacd.brief}}
             </div>
            <div class="buy-act">
+           media33<br>
+           {{bacd.brief}} <br>
+           In Stock
            </div> 
     </div>  
     {{bacd}} 
