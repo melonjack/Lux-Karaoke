@@ -7,7 +7,8 @@
 #nav { float:right;  margin-right: 216px; line-height: 36px;
         list-style-type: none;   } 
 #nav  li {float: left; position: relative;width: 180px; list-style: none;} 
-#nav li a {display: block; color: aliceblue;}  
+#nav li a {display: block; color: aliceblue;padding-left: 12px;
+           font-weight: bold; text-decoration: none;}  
 #nav li ul {display: none; position: absolute; background-color: dimgrey;
             border-radius: 0px 0px 6px 6px;} 
 #nav li:hover ul {display: block; }  
