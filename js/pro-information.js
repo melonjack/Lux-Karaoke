@@ -5,10 +5,16 @@ var  detail = Vue.component('detail' ,
  { 
   props: ['bacd'] ,
   template:  ` <div class="flexb2" >
-  {{bacd}}
-        <div class="imgs">
+     <div class="flex-main>
+          <div class="imgs">
             <a href="#" > <img :src="img_url + bacd.image"  width="450" ></a>
           </div>
+          <div class="feature">
+            </div>
+           <div class="buy-act">
+           </div> 
+    </div>  
+    {{bacd}} 
             <div class="imgs">
             <div class="det1"> <img v-bind:src="pdata.pict" /> </div>
             <div class="det2"> {{pdata.brief}}
