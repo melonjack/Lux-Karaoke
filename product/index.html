@@ -16,18 +16,16 @@ body {
  <script src="https://unpkg.com/vue@2.6.12/dist/vue.js"></script>                 <!--- link a Vue package  -->
 </head>
 <body>
-Hello World !
+
 <div class="myDiv"> 
     <p><i class="fa fa-phone-alt"></i> &nbsp; 604 879-6399 &nbsp; &nbsp; &nbsp; &nbsp;  <i class="fas fa-home"></i> &nbsp; 1971 E 49th Ave , Vancouver, BC V5P 1T5 &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-envelope"></i> &nbsp; lux@luxkaraokeshop.com</p>
    </div>
 <div id="banner" >LUX KARAOKE SHOP <br>   </div>
 <div id="app">
     <component :is="currentView"></component>
+    <detail :bacd=psk />
     <i class="fa fa-th"></i><i class="fa fa-address-book"></i>
-
-{{ message }}
-<detail :bacd=psk />
-
+    {{ message }}
 </div>
 <div id="footer2">  &copy;&nbsp;  copyright &nbsp; 2020  &nbsp;&nbsp; Gecon Technology Ltd.  &nbsp;&nbsp; All Rights Reserved  </div>
 <script src="../js/navigate.js"> </script>
