@@ -8,4 +8,7 @@
         list-style-type: none;   } 
 #nav  li {float: left; position: relative;width: 180px; list-style: none;} 
 #nav li a {display: block; color: aliceblue;}  
-#nav li ul {display:block; position: absolute; background-color: dimgrey;} 
+#nav li ul {display: none; position: absolute; background-color: dimgrey;
+            border-radius: 0px 0px 6px 6px;} 
+#nav li:hover ul {display: block; }  
+#nav li ul li {    }  
