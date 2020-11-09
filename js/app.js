@@ -13,6 +13,9 @@ var app = new Vue({
       ab:'',
       chechedItem: [] 
     } ,
+    mounted: function(){
+    console.log("First")
+    }
   methods:{
       getCookie:function (cname) {
            var name = cname + "=";

@@ -73,7 +73,9 @@ var  Catalog = Vue.component('listitem' ,
       
   },
 mounted: function(){
-    
+  
+    console.log("Second")
+  
    }
 })
 /***************************************************************************************/
