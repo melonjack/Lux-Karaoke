@@ -5,11 +5,12 @@ var  detail = Vue.component('detail' ,
  { 
   props: ['bacd'] ,
   template:  ` <div class="flexb2" >
-     <div class="flex-main>
+     <div class="flex-main">
           <div class="imgs">
             <a href="#" > <img :src="img_url + bacd.image"  width="450" ></a>
           </div>
           <div class="feature">
+          {{bacd.brief}}
             </div>
            <div class="buy-act">
            </div> 
