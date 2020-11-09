@@ -6,3 +6,5 @@
 #gnav{height:36px; width:100%; background-color:#cc4545;}
 #nav { float:right;  margin-right: 216px; line-height: 36px;
         list-style-type: none;   } 
+#nav  li {float: left; list-style: none;} 
+#nav li a {}       
