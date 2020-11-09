@@ -1,4 +1,12 @@
 .container{width: 100%;}
+
+.myDiv {
+    background-color: #3d3d3d;
+    padding: 4px;
+    color: #a8a8a8;    
+    text-align: center;
+}
+#banner {height:50px; font-size:26px; padding: 18px; background-color:#eed; }
 /******************************************************************************/
 /*****            Navigation Bar                                         ******/
 /******************************************************************************/
