@@ -112,12 +112,13 @@ Vue.component('citem', {
   props: ['prodata','index'] ,
   template: `<div class="listitem"> This is a item !
                 <div class="brief">
-                 <a :href="url" >{{prodata.brief}}</a> <hr> <span> product code: {{prodata.ptcode}} </span>
+                 <a :href="url+prodata.ptcode" >{{prodata.brief}}</a> <hr> <span> product code: {{prodata.ptcode}} </span>
                </div>
   </div> `,
   data() {
     return {  
         checked: false,
+        rnd:"&rdd=dre456" ,
         dt_s:'',
         url: './product/?kdy35=aesdf&a=cata4de&ptc=E4578' 
     }
