@@ -104,7 +104,7 @@ var  list2 = Vue.component('list2' ,
     return {  
         checked: false,
         dt_s:'',
-     
+        url: './product/?kdy35=aesdf&a=cata4de&ptc=E4578' 
     }
   } 
 })
@@ -112,9 +112,16 @@ Vue.component('citem', {
   props: ['prodata','index'] ,
   template: `<div class="listitem"> This is a item !
                 <div class="brief">
-                 <a href="./#" >{{prodata.brief}}</a> <hr> <span> product code: {{prodata.ptcode}} </span>
+                 <a :href="url" >{{prodata.brief}}</a> <hr> <span> product code: {{prodata.ptcode}} </span>
                </div>
-  </div> `
+  </div> `,
+  data() {
+    return {  
+        checked: false,
+        dt_s:'',
+        url: './product/?kdy35=aesdf&a=cata4de&ptc=E4578' 
+    }
+  } 
  })
 Vue.component('component-b', { template: `<div class="listitem">  Hello World !</div> ` })
 Vue.component('component-c', { template: `<div class="listitem">  Hello World !</div> ` })
