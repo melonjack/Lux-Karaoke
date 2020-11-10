@@ -19,9 +19,14 @@ body {
    </div>
 <div id="banner" > LUX KARAOKE SHOP </div>
 <div id="app">
+  <gnav-bar></gnav-bar>
+    <h3>Home > Feature Product</h3>
+    <div class="flex-container">
+      <citem v-for="(items,idx) in jssn" :key="idx" :prodata ="items" :index="idx"/>  
+    </div>
   <component-b></component-b>
-     <component-c></component-c>
-     {{currentView}} {{a+367}}
+  <component-c></component-c>
+  {{currentView}} {{a+367}}
   {{currentView}} {{a+367}}
  	{{currentView}}  {{a+12}} 
 </div>  <!---      EOF div #app      -->    
