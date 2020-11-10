@@ -2,10 +2,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8 " />
 <title> Lux Karaoke 2020</title>
+<style type="text/css">
+<!--
+.listitem {
+    width: 350px;
+    height: 600px;
+    text-align: center;
+    margin: 10px;
+    padding: 8px;
+    flex: 1 0 430px;
+    background-color:#FAF1EB;
+    font-weight: normal;
+  }
+-->
+</style>
 </head>
 <body>
     <div id="app">
      <gnav-bar></gnav-bar>
+     <h3>Home > Feature Product</h3>
+      <div class="flex-container">
+      <component-a> v-for="(items,idx) in jssn" :key="idx" :prodata ="items" :index="idx"/>  
+      </div>
      <component-a></component-a>
      <component-b></component-b>
      <component-c></component-c>

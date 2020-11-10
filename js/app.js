@@ -7,18 +7,27 @@ var app = new Vue({
       message: 'Hello New app Vue !!' ,
       currentView:'listitem',
       logn:true,
-      jsdd:'',
+      jssn:'',
       amp:'',
       a: 0.123  ,
       ab:'',
       chechedItem: [] 
     } ,
     mounted: function(){
+      const options = {}
+      this.getApi(options)
     console.log("First")
     console.log(this.currentView)
     },
   methods:{
-      getCookie:function (cname) {
+    getApi:function (options) {
+      fetch('jsn.json').then((response) => response.text()).then((data) => {
+                     this.jssn  = JSON.parse(data) ;
+                      console.log(this.jssn) ;
+             }).catch((err) => {console.log(err); });
+        return "OK"               
+      },
+    getCookie:function (cname) {
            var name = cname + "=";
            var ca = document.cookie.split(';');
            for(var i = 0; i < ca.length; i++) {
