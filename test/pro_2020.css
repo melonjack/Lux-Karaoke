@@ -7,7 +7,7 @@
 }
 #banner {height:42px; font-size:26px; padding: 18px; background-color:#eed; }
 .myDiv1 {
-    border: 3px outset #6a6aac; padding:3px;   background-color: grey;
+    border: 3px outset #6a6aac; padding:6px;   background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;    
     text-align: center;
@@ -32,9 +32,9 @@
 /*****           Product Main flex Div                                   ******/
 /******************************************************************************/
 .flexb2{background-color:#fdfdfd; text-align: center; padding: 10px ; }
-.flex-main {display:flex; width: 100%; padding: 4px;background-color: gold;  flex-wrap: nowrap; justify-content: flex-start; }
-.imgs {min-width: 460px;text-align: center; margin-right: 4px; background-color: #fdfdfd; flex:8 ;}
-.feature {min-width: 300px; min-height: 200px; margin-right: 6px; background-color: #35fdfd;font-size: 20px; flex:8; }
-.buy-act {min-width: 200px; min-height: 200px;  background-color: #fdfdfd; flex:3 ; }
+.flex-main {display:flex; width: 100%; padding: 3px;background-color:#5E6472;  flex-wrap: nowrap; justify-content: flex-start; }
+.imgs {min-width: 460px;text-align: center; margin-right: 3px; padding: 6px; background-color: #fdfdfd; flex:8 ;}
+.feature {min-width: 300px; min-height: 200px; margin-right: 3px;padding: 6px; background-color: #35fdfd;font-size: 20px; flex:8; }
+.buy-act {min-width: 200px; min-height: 200px;  background-color: #fdfdfd;padding: 6px; flex:3 ; }
 
 /******************************************************************************/
