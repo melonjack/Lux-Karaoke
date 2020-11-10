@@ -4,6 +4,7 @@
 <title> Lux Karaoke 2020</title>
 <style type="text/css">
 <!--
+*{ margin:0; padding:0;border:0; }
 .flex-container {
     display: flex; /* or inline-flex */
     justify-content: flex-start;
@@ -21,7 +22,7 @@
     font-weight: normal;
   }
   .listitem  a { text-decoration:none; font-weight:bold; font-size: 14px; } 
-.imgs{ height:430px ;}  
+.imgs{display: flex; height:430px ;justify-content: center; align-items: center;}  
 div.brief{background-color: #dfe2dd ; color: #06061b; font-weight: bold; font-size: 20px;}
 /******************************************************************************/
 /*****            Navigation Bar                                         ******/
@@ -30,9 +31,9 @@ div.brief{background-color: #dfe2dd ; color: #06061b; font-weight: bold; font-si
 #nav { float:right;  margin-right: 216px; line-height: 36px;
         list-style-type: none;   } 
 #nav  li {float: left; position: relative;width: 180px; list-style: none;} 
-#nav li a {display: block; color: aliceblue;padding-left: 12px;
+#nav li a {display: block; color: aliceblue;padding-left: 12px; font-size: 18px;
            font-weight: bold; text-decoration: none;}  
-#nav li ul {display: none; position: absolute; background-color: dimgrey;
+#nav li ul {display: none; position: absolute; background-color: whitesmoke;
             border-radius: 0px 0px 6px 6px;} 
 #nav li:hover ul {display: block; }  
 #nav li ul li {    }  
