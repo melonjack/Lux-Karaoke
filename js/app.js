@@ -21,7 +21,7 @@ var app = new Vue({
     },
   methods:{
     getApi:function (options) {
-      fetch('jsn.json').then((response) => response.text()).then((data) => {
+      fetch('./test/jsn.json').then((response) => response.text()).then((data) => {
                      this.jssn  = JSON.parse(data) ;
                       console.log(this.jssn) ;
              }).catch((err) => {console.log(err); });
