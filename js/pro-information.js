@@ -108,6 +108,13 @@ var  list2 = Vue.component('list2' ,
     }
   } 
 })
-Vue.component('citem', { template: `<div class="listitem"> This is a item !</div> ` })
+Vue.component('citem', { 
+  props: ['prodata','index'] ,
+  template: `<div class="listitem"> This is a item !
+                <div class="brief">
+                 <a href="./#" >{{prodata.brief}}</a> <hr> <span> product code: {{prodata.ptcode}} </span>
+               </div>
+  </div> `
+ })
 Vue.component('component-b', { template: `<div class="listitem">  Hello World !</div> ` })
 Vue.component('component-c', { template: `<div class="listitem">  Hello World !</div> ` })
