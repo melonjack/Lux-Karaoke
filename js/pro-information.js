@@ -108,3 +108,6 @@ var  list2 = Vue.component('list2' ,
     }
   } 
 })
+Vue.component('component-a', { template: `<div class="listitem">  Hello World !</div> ` })
+Vue.component('component-b', { template: `<div class="listitem">  Hello World !</div> ` })
+Vue.component('component-c', { template: `<div class="listitem">  Hello World !</div> ` })
