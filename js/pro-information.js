@@ -96,8 +96,8 @@ var  list1 = Vue.component('list1' ,
 /***************************************************************************************/
 var  list2 = Vue.component('list2' , 
  { 
-  props: ['prodata','index'] ,
-  template: `<div class="listitem">
+  props: ['prodata'] ,
+  template: `<div class="list2">
   Hello World2 !
   </div> `,
   data() {
