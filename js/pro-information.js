@@ -110,7 +110,10 @@ var  list2 = Vue.component('list2' ,
 })
 Vue.component('citem', { 
   props: ['prodata','index'] ,
-  template: `<div class="listitem"> This is a item !
+  template: `<div class="listitem"> 
+                <div class="imgs">
+                <a :href="url+prodata.ptcode+rnd" > <img :src="img_url + prodata.image"  width="340" ></a>
+               </div>
                 <div class="brief">
                  <a :href="url+prodata.ptcode+rnd" >{{prodata.brief}}</a> <hr> <span> product code: {{prodata.ptcode}} </span>
                </div>
@@ -120,6 +123,7 @@ Vue.component('citem', {
         checked: false,
         rnd:"&rdd=dre456" ,
         dt_s:'',
+        img_url: 'https://mzhou2015.github.io/gecon_pub/src/vxdagi/image/',
         url: './product/?kdy35=aesdf&a=cata4de&ptc=' 
     }
   } 
