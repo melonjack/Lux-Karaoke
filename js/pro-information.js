@@ -79,3 +79,32 @@ mounted: function(){
    }
 })
 /***************************************************************************************/
+var  list1 = Vue.component('list1' , 
+ { 
+  props: ['prodata','index'] ,
+  template: `<div class="listitem">
+  Hello World !
+  </div> `,
+  data() {
+    return {  
+        checked: false,
+        dt_s:'',
+     
+    }
+  } 
+})
+/***************************************************************************************/
+var  list2 = Vue.component('list2' , 
+ { 
+  props: ['prodata','index'] ,
+  template: `<div class="listitem">
+  Hello World2 !
+  </div> `,
+  data() {
+    return {  
+        checked: false,
+        dt_s:'',
+     
+    }
+  } 
+})
