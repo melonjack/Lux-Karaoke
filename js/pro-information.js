@@ -11,10 +11,12 @@ var  detail = Vue.component('detail' ,
           </div>
           <div class="feature">
           {{bacd.brief}}
+          <br> <p>{{bacd.description}} </p>
             </div>
            <div class="buy-act">
-           media33<br>
-           {{bacd.brief}} <br><i class="fa fa-th"></i><i class="fa fa-address-book"></i>
+           shipping from Vancouver BC Canada <hr>
+           shipping Cost {{bacd.rprice}} <br>
+           <i class="fa fa-th"></i> &nbsp;&nbsp; &nbsp;&nbsp;<i class="fa fa-address-book"></i>
            In Stock
            </div> 
     </div>  <!--- End of flex-main  -->
@@ -116,6 +118,7 @@ Vue.component('citem', {
                </div>
                 <div class="brief">
                  <a :href="url+prodata.ptcode+rnd" >{{prodata.brief}}</a> <hr> <span> product code: {{prodata.ptcode}} </span>
+                 <br> <span> Model: {{prodata.model}} </span>
                </div>
   </div> `,
   data() {
