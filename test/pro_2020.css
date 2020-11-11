@@ -33,12 +33,12 @@
 /******************************************************************************/
 .flexb2{background-color:#fdfdfd; text-align: center; padding: 10px ; }
 .flex-main {display:flex; width: 100%; padding: 3px;background-color:#ccd0d8;  flex-wrap: nowrap; justify-content: flex-start; }
-.imgs {min-width: 460px;text-align: center; margin-right: 2px; padding: 6px; background-color: #fdfdfd; flex:8 ;}
-.feature {min-width: 300px; min-height: 200px; margin-right: 2px;padding: 6px; background-color:#fdfdfd;font-size: 20px; flex:8; }
-.buy-act {min-width: 200px; min-height: 200px;  background-color: #fdfdfd;
+.imgs {min-width: 460px; min-height: 450px;text-align: center; margin-right: 2px; padding: 6px; background-color: #fdfdfd; flex:8 ;}
+.feature {min-width: 300px; min-height: 450px; margin-right: 2px;padding: 6px; background-color:#fdfdfd;font-size: 20px; flex:8; }
+.buy-act {min-width: 200px; min-height: 450px;  background-color: #fdfdfd;
          font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #3E4452;
-         padding: 6px; flex:3 ; }
-.desc {color: #272a30; font-size: 12 px;}         
+         padding: 12px 8px; flex:3 ; }
+.feat {color: #272a30; font-size: 12 px;}         
     
 
 /******************************************************************************/
