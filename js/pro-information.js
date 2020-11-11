@@ -17,7 +17,8 @@ var  detail = Vue.component('detail' ,
            <div class="buy-act">
            shipping from Vancouver BC Canada <hr>
            shipping Cost {{bacd.rprice}} <br>
-           <i class="fa fa-th"></i> &nbsp;&nbsp; &nbsp;&nbsp;<i class="fa fa-address-book"></i>
+           <i class="fa fa-address-book"></i><br>
+           <i class="fa fa-th"></i> &nbsp;&nbsp; &nbsp;&nbsp;
            In Stock
            </div> 
     </div>  <!--- End of flex-main  -->
