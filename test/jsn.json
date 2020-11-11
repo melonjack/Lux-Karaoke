@@ -1,7 +1,21 @@
 [
-    {"ptcode":"E23024","image":"KV-X8154227.jpg","brief":" InAndOn KV-V5  Pro All In One Karaoke  Player with 4T HDD 90K Songs Build in, HiFine 22 Inch Touch Screen, Cloud Song Download, English, Traditional Chinese "},
-    {"ptcode":"E23153","image":"20180KV-V3.jpg","brief":"InAndOn Karaoke Player KV-V3Pro with 4T HDD, Cloud Songs Download"},
-    {"ptcode":"H23319","image":"DX201t300b_v5.jpg","brief":"InAndOn KV-V5  Pro All In One Karaoke  Player with 4T HDD 90K Songs Build in, HiFine 22 Inch Touch Screen, Cloud Song Download, English, Traditional Chinese"},
-    {"ptcode":"H23322","image":"DX201t300b_v5.jpg","brief":"22 Inch Capacitive Touch Screen"},
-    {"ptcode":"H26026","image":"DX1026gi_816v3.jpg","brief":"InAndOn KV-V3 Pro All In One Karaoke  Player with 4T HDD 90K Songs Build in, HiFine 18.5 Inch Touch Screen, Cloud Song Download, English, Traditional Chinese "}
+    {"ptcode":"E21010","model":"KW-310  ","image":"3Way-10Ktvspeaker.jpg","brief":"","rprice":"450.00","description":"The KW-310 is designed to use for karaoke balcony.xx It features a long-excursion 10 inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driver.  ","specification":"Frequency Response yy 45 Hz -18K Hz(-3db)
+     40 Hz - 20K Hz (-10db)xx
+    Reated Power yy 250W RMS
+    Recommed Amplifier yy 150W - 300 W  (4 ohms)xx
+    Sensitivity yy 92db 1 Watt/metrexx
+    Impendance yy 8 ohms nominalxx
+    Cross over yy 1.5 kHz passive xx
+    Enclosure yy 26 litre Vented xx
+    Finish yy Black Paintxx
+    Protective Grille yy Black perforated steelxx
+    Fittings yy 2 x M8 insert wall bracketxx
+    Dimensions yy 508mmx 200mmx271mm xx
+    Weight yy 10.5Kg  ","note":""},
+    {"ptcode":"E23024","model":"KV-815X5","image":"KV-X8154227.jpg","brief":" InAndOn KV-V5  ProAll In One Karaoke  Player with 4T HDD 90K Songs Build in, HiFine 18.5 Inch Touch Screen, Cloud Song Download, English, Traditional Chinese ","rprice":"868.00","description":"Touch Screen LCD Monitor -Standing model <br>
+    For Karaoke KOD KV-800G and KV-800S","specification":"","note":""},
+    {"ptcode":"E23153","model":"KV-V3","image":"20180KV-V3.jpg","brief":"InAndOn Karaoke Player KV-V3Pro with 4T HDD, Cloud Songs Download","rprice":"450.00","description":"0","specification":"0","note":"325x95x470 "},
+    {"ptcode":"H23319","model":"KV-915W-d4","image":"","brief":"","rprice":"","description":"","specification":"","note":""},
+    {"ptcode":"H23322","model":"T-300BW-r5","image":"DX201t300b_v5.jpg","brief":"22 Inch Capacitive Touch Screen","rprice":"320.00","description":"","specification":"","note":"E23089XAE23043"},
+    {"ptcode":"H26026","model":"KV-185X-V3PRO","image":"","brief":"","rprice":"","description":"","specification":"","note":""}
     ]
