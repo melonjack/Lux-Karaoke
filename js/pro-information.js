@@ -11,6 +11,7 @@ var  detail = Vue.component('detail' ,
           </div>
           <div class="feature">
           {{bacd.brief}}
+          <hr>
           <br> <p>{{bacd.description}} </p>
             </div>
            <div class="buy-act">

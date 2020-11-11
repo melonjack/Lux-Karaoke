@@ -38,5 +38,7 @@
 .buy-act {min-width: 200px; min-height: 200px;  background-color: #fdfdfd;
          font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #3E4452;
          padding: 6px; flex:3 ; }
+.buy-act p {color: #6495ed; font-size: 12 px;}         
+ hr {border: 1px solid rgb(87, 83, 83);}        
 
 /******************************************************************************/
