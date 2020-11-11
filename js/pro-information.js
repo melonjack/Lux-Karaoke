@@ -12,7 +12,7 @@ var  detail = Vue.component('detail' ,
           <div class="feature">
           {{bacd.brief}}
           <hr>
-          <br> <p>{{bacd.description}} </p>
+          <br> <p class="desc">{{bacd.description}} </p>
             </div>
            <div class="buy-act">
            shipping from Vancouver BC Canada <hr>
