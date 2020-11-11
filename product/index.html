@@ -50,14 +50,14 @@ body {
       this.message = "Ptcode = " + c
       console.log(currentUrl);
       const options = {}
-          this.getApi(options)
+          this.getApi(c)
     },
     methods:{
-            getApi:function (options) {
+            getApi:function (cval) {
                 fetch('../test/jsn.json').then((response) => response.text()).then((data) => {
                                this.jssn  = JSON.parse(data) ;
                                console.log(this.jssn) ;
-                            var index = this.jssn.findIndex(x => x.ptcode ==="H23322");
+                            var index = this.jssn.findIndex(x => x.ptcode ===cval);
                             this.psk = this.jssn[index]
                             console.log(this.psk);
                        }).catch((err) => {console.log(err); });
