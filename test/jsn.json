@@ -2,12 +2,61 @@
     "ptcode": "E21010",
     "model": "KW-310  ",
     "image": "3Way-10Ktvspeaker.jpg",
-    "brief": "Hrt",
+    "brief": "FDB KW-310 a premium full-range special for Karaoke system.",
     "rprice": "450.00",
-    "description": "The KW-310 is designed to use for karaoke balcony.xx It features a long-excursion 10inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driver.  ",
+    "description": "The KW-310 is designed to use for karaoke balcony.xx It features a long-excursion 10inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driverxxPrecision engineered crossover for optimal power response and performance in the critical mid-range region  ",
     "descrp": {
         "here": true,
-        "feature": ["The KW-310 is designed to use for karaoke balcony. ,", " It features a long-excursion 10inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driver.   ,"]
+        "feature": ["The KW-310 is designed to use for karaoke balcony. ,", " It features a long-excursion 10inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driver ,", "Precision engineered crossover for optimal power response and performance in the critical mid-range region   ,"]
+    },
+    "specification": "Frequency Response yy 45 Hz -18K Hz(-3db) ; 40 Hz - 20K Hz (-10db)xxReated Power yy250W RMSxxRecommed Amplifier yy 150W - 300 W  (4 ohms)xxSensitivity yy 92db 1 Watt/metrexxImpendance yy 8 ohms nominalxxCross over yy 1.5 kHz passiEnclosure yy 26 litre Vented xxFinish yy Black PaintxxProtective Grille yy Black perforated steelxxFittings yy 2 x M8 insert wall bracketxxDimensions yy 508mmx 200mmx271mm xxWeight yy 10.5Kg  ",
+    "speciff": {
+        "here": true,
+        "feature": [{
+                "name": " Frequency Response ",
+                "sval": " 45 Hz -18K Hz(-3db) ; 40 Hz - 20K Hz (-10db) "
+            },
+            {
+                "name": " Reated Power ",
+                "sval": "250W RMS "
+            },
+            {
+                "name": " Recommed Amplifier ",
+                "sval": " 150W - 300 W  (4 ohms) "
+            },
+            {
+                "name": " Sensitivity ",
+                "sval": " 92db 1 Watt/metre "
+            },
+            {
+                "name": " Impendance ",
+                "sval": " 8 ohms nominal "
+            },
+            {
+                "name": " Cross over ",
+                "sval": " 1.5 kHz passiEnclosure  "
+            },
+            {
+                "name": " Finish ",
+                "sval": " Black Paint "
+            },
+            {
+                "name": " Protective Grille ",
+                "sval": " Black perforated steel "
+            },
+            {
+                "name": " Fittings ",
+                "sval": " 2 x M8 insert wall bracket "
+            },
+            {
+                "name": " Dimensions ",
+                "sval": " 508mmx 200mmx271mm  "
+            },
+            {
+                "name": " Weight ",
+                "sval": " 10.5Kg   "
+            }
+        ]
     },
     "note": ""
 },
@@ -22,6 +71,7 @@
         "here": true,
         "feature": ["High Definition 4K Output ,", "Built-in wireless,With Chinese Cantonese Taiwanese English Chiuchow Songs in ,", "Update songs from Cloud with a huge song Database ,", "Own reverising-falling tone microphone with mixer  ,", "Package Includes: KV-V5 Pro karaoke playeo,weradpter12V/2Adio/Video RCA Cablser Manu ,"]
     },
+    "specification": "   ",
     "note": "495x400x152"
 },
 {
@@ -35,6 +85,7 @@
         "here": true,
         "feature": ["Touch Screen LCD Monitor -Standing mod ,", "or Karaoke KOD ,", " KV-800G and KV-800S ,"]
     },
+    "specification": "",
     "note": ""
 },
 {
@@ -47,6 +98,7 @@
     "descrp": {
         "here": false
     },
+    "specification": "0",
     "note": "325x95x470 <img>"
 },
 {
@@ -59,6 +111,7 @@
     "descrp": {
         "here": false
     },
+    "specification": "",
     "note": ""
 },
 {
@@ -71,6 +124,7 @@
     "descrp": {
         "here": false
     },
+    "specification": "",
     "note": "E23089XAE23043"
 },
 {
@@ -83,6 +137,7 @@
     "descrp": {
         "here": false
     },
+    "specification": "",
     "note": ""
 }
 ]
