@@ -1,143 +1,52 @@
-[{
-    "ptcode": "E21010",
-    "model": "KW-310  ",
-    "image": "3Way-10Ktvspeaker.jpg",
-    "brief": "FDB KW-310 a premium full-range special for Karaoke system.",
-    "rprice": "450.00",
-    "description": "The KW-310 is designed to use for karaoke balcony.xx It features a long-excursion 10inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driverxxPrecision engineered crossover for optimal power response and performance in the critical mid-range region  ",
-    "descrp": {
-        "here": true,
-        "feature": ["The KW-310 is designed to use for karaoke balcony. ,", " It features a long-excursion 10inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driver ,", "Precision engineered crossover for optimal power response and performance in the critical mid-range region   ,"]
-    },
-    "specification": "Frequency Response yy 45 Hz -18K Hz(-3db) ; 40 Hz - 20K Hz (-10db)xxReated Power yy250W RMSxxRecommed Amplifier yy 150W - 300 W  (4 ohms)xxSensitivity yy 92db 1 Watt/metrexxImpendance yy 8 ohms nominalxxCross over yy 1.5 kHz passiEnclosure yy 26 litre Vented xxFinish yy Black PaintxxProtective Grille yy Black perforated steelxxFittings yy 2 x M8 insert wall bracketxxDimensions yy 508mmx 200mmx271mm xxWeight yy 10.5Kg  ",
-    "speciff": {
-        "here": true,
-        "feature": [{
-                "name": " Frequency Response ",
-                "sval": " 45 Hz -18K Hz(-3db) ; 40 Hz - 20K Hz (-10db) "
-            },
-            {
-                "name": " Reated Power ",
-                "sval": "250W RMS "
-            },
-            {
-                "name": " Recommed Amplifier ",
-                "sval": " 150W - 300 W  (4 ohms) "
-            },
-            {
-                "name": " Sensitivity ",
-                "sval": " 92db 1 Watt/metre "
-            },
-            {
-                "name": " Impendance ",
-                "sval": " 8 ohms nominal "
-            },
-            {
-                "name": " Cross over ",
-                "sval": " 1.5 kHz passiEnclosure  "
-            },
-            {
-                "name": " Finish ",
-                "sval": " Black Paint "
-            },
-            {
-                "name": " Protective Grille ",
-                "sval": " Black perforated steel "
-            },
-            {
-                "name": " Fittings ",
-                "sval": " 2 x M8 insert wall bracket "
-            },
-            {
-                "name": " Dimensions ",
-                "sval": " 508mmx 200mmx271mm  "
-            },
-            {
-                "name": " Weight ",
-                "sval": " 10.5Kg   "
-            }
-        ]
-    },
-    "note": ""
-},
-{
-    "ptcode": "E23008",
-    "model": "KV-V5",
-    "image": "kv-v5pro-2019032016.jpg",
-    "brief": "InAndon KV-V5 Pro Karaoke Player,   Intelligent Voice Keying Machine Real-time score The newest model (KV-V5 Pro + 4TB HDD )",
-    "rprice": "720.00",
-    "description": "High Definition 4K OutputxxBuilt-in wireless,With Chinese Cantonese Taiwanese English Chiuchow Songs inxxUpdate songs from Cloud with a huge song DatabasexxOwn reverising-falling tone microphone with mixer xxPackage Includes: KV-V5 Pro karaoke playeo,weradpter12V/2Adio/Video RCA Cablser Manu",
-    "descrp": {
-        "here": true,
-        "feature": ["High Definition 4K Output ,", "Built-in wireless,With Chinese Cantonese Taiwanese English Chiuchow Songs in ,", "Update songs from Cloud with a huge song Database ,", "Own reverising-falling tone microphone with mixer  ,", "Package Includes: KV-V5 Pro karaoke playeo,weradpter12V/2Adio/Video RCA Cablser Manu ,"]
-    },
-    "specification": "   ",
-    "note": "495x400x152"
-},
-{
-    "ptcode": "E23024",
-    "model": "KV-815X5",
-    "image": "KV-X8154227.jpg",
-    "brief": " InAndOn KV-V5  ProAll In One Karaoke  Player with 4T HDD 90K Songs Build in, HiFine 18.5 Inch Touch Screen, Cloud Song Download, English, Traditional Chinese ",
-    "rprice": "868.00",
-    "description": "Touch Screen LCD Monitor -Standing modxxor Karaoke KODxx KV-800G and KV-800S",
-    "descrp": {
-        "here": true,
-        "feature": ["Touch Screen LCD Monitor -Standing mod ,", "or Karaoke KOD ,", " KV-800G and KV-800S ,"]
-    },
-    "specification": "",
-    "note": ""
-},
-{
-    "ptcode": "E23153",
-    "model": "KV-V3",
-    "image": "20180KV-V3.jpg",
-    "brief": "InAndOn Karaoke Player KV-V3Pro with 4T HDD, Cloud Songs Download",
-    "rprice": "450.00",
-    "description": "0",
-    "descrp": {
-        "here": false
-    },
-    "specification": "0",
-    "note": "325x95x470 <img>"
-},
-{
-    "ptcode": "H23319",
-    "model": "KV-215W-d4",
-    "image": "815x5d4t20201110.jpg",
-    "brief": "InAndOn Karaoke Player KV-V3Pro with 4T HDD, Cloud Songs Download",
-    "rprice": "830.00",
-    "description": "",
-    "descrp": {
-        "here": false
-    },
-    "specification": "",
-    "note": ""
-},
-{
-    "ptcode": "H23322",
-    "model": "T-300BW-r5",
-    "image": "DX201t300b_v5.jpg",
-    "brief": "22 Inch Capacitive Touch Screen",
-    "rprice": "320.00",
-    "description": "",
-    "descrp": {
-        "here": false
-    },
-    "specification": "",
-    "note": "E23089XAE23043"
-},
-{
-    "ptcode": "H26026",
-    "model": "KV-185X-V3PRO",
-    "image": "DX1026gi_816v3.jpg",
-    "brief": "InAndOn Karaoke Player KV-V3Pro with 4T HDD, Cloud Songs Download",
-    "rprice": "760.00",
-    "description": "",
-    "descrp": {
-        "here": false
-    },
-    "specification": "",
-    "note": ""
-}
-]
+[
+    {"ptcode":"E21010","model":"KW-310  ","image":"3Way-10Ktvspeaker.jpg","brief":"FDB KW-310 a premium full-range special for Karaoke system.","rprice":"450.00",
+    "description":"The KW-310 is designed to use for karaoke balcony.xx It features a long-excursion 10inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driverxxPrecision engineered crossover for optimal power response and performance in the critical mid-range region  ",
+    "descrp":{"here":true,"feature":["The KW-310 is designed to use for karaoke balcony. ,"," It features a long-excursion 10inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driver ,","Precision engineered crossover for optimal power response and performance in the critical mid-range region   ," ]},
+    "specification":"Frequency Response yy 45 Hz -18K Hz(-3db) ; 40 Hz - 20K Hz (-10db)xxReated Power yy250W RMSxxRecommed Amplifier yy 150W - 300 W  (4 ohms)xxSensitivity yy 92db 1 Watt/metrexxImpendance yy 8 ohms nominalxxCross over yy 1.5 kHz passiEnclosure yy 26 litre Vented xxFinish yy Black PaintxxProtective Grille yy Black perforated steelxxFittings yy 2 x M8 insert wall bracketxxDimensions yy 508mmx 200mmx271mm xxWeight yy 10.5Kg  ",
+    "speciff":{"here":true,"feature":[
+    {"name":" Frequency Response ","sval":" 45 Hz -18K Hz(-3db) ; 40 Hz - 20K Hz (-10db) "},
+    {"name":" Reated Power ","sval":"250W RMS "},
+    {"name":" Recommed Amplifier ","sval":" 150W - 300 W  (4 ohms) "},
+    {"name":" Sensitivity ","sval":" 92db 1 Watt/metre "},
+    {"name":" Impendance ","sval":" 8 ohms nominal "},
+    {"name":" Cross over ","sval":" 1.5 kHz passiEnclosure  "},
+    {"name":" Finish ","sval":" Black Paint "},
+    {"name":" Protective Grille ","sval":" Black perforated steel "},
+    {"name":" Fittings ","sval":" 2 x M8 insert wall bracket "},
+    {"name":" Dimensions ","sval":" 508mmx 200mmx271mm  "},
+    {"name":" Weight ","sval":" 10.5Kg   "} ]},
+    "note":""},
+    {"ptcode":"E23008","model":"KV-V5","image":"kv-v5pro-2019032016.jpg","brief":"InAndon KV-V5 Pro Karaoke Player,   Intelligent Voice Keying Machine Real-time score The newest model (KV-V5 Pro + 4TB HDD )","rprice":"720.00",
+    "description":"High Definition 4K OutputxxBuilt-in wireless,With Chinese Cantonese Taiwanese English Chiuchow Songs inxxUpdate songs from Cloud with a huge song DatabasexxOwn reverising-falling tone microphone with mixer xxPackage Includes: KV-V5 Pro karaoke playeo,weradpter12V/2Adio/Video RCA Cablser Manu",
+    "descrp":{"here":true,"feature":["High Definition 4K Output ,","Built-in wireless,With Chinese Cantonese Taiwanese English Chiuchow Songs in ,","Update songs from Cloud with a huge song Database ,","Own reverising-falling tone microphone with mixer  ,","Package Includes: KV-V5 Pro karaoke playeo,weradpter12V/2Adio/Video RCA Cablser Manu ," ]},
+    "specification":"   ",
+    "note":"495x400x152"},
+    {"ptcode":"E23024","model":"KV-815X5","image":"KV-X8154227.jpg","brief":" InAndOn KV-V5Pro All In One Karaoke  Player with 4T HDD 90K Songs Build in, HiFine 18.5 Inch Touch Screen, Cloud Song Download, English, Traditional Chinese ","rprice":"868.00",
+    "description":"This karaoke player is a Hi-Tech computer base multimedia machinexx Player sources from USB, including fornats such as DVD,VCD,CD and so onxx Touch Screen LCD Monitor -Standing modxxor Karaoke KODxx KV-800G and KV-800S",
+    "descrp":{"here":true,"feature":["This karaoke player is a Hi-Tech computer base multimedia machine ,"," Player sources from USB, including fornats such as DVD,VCD,CD and so on ,"," Touch Screen LCD Monitor -Standing mod ,","or Karaoke KOD ,"," KV-800G and KV-800S ," ]},
+    "specification":"Input voltageyyDC 12VxxRated poweryy30W(4A)xxSizeyy400*250*170(mm)xxWeightyy5KG",
+    "speciff":{"here":true,"feature":[
+    {"name":" Input voltage","sval":"DC 12V "},
+    {"name":" Rated power","sval":"30W(4A) "},
+    {"name":" Size","sval":"400*250*170(mm) "},
+    {"name":" Weight","sval":"5KG "} ]},
+    "note":"option for white and black"},
+    {"ptcode":"E23153","model":"KV-V3","image":"20180KV-V3.jpg","brief":"InAndOn Karaoke Player KV-V3Pro with 4T HDD, Cloud Songs Download","rprice":"450.00",
+    "description":"0","descrp":{"here":false },
+    "specification":"0",
+    "ntimg":["KV-X3 -2020.jpg","201911211KV-X3.png"],
+    "note":"325x95x470 <img>XMKV-X3 -2020.jpgXM201911211KV-X3.pngXM123"},
+    {"ptcode":"H23319","model":"KV-215W-d4","image":"815x5d4t20201110.jpg","brief":"InAndOn Karaoke Player KV-V3Pro with 4T HDD, Cloud Songs Download","rprice":"830.00",
+    "description":"","descrp":{"here":false },
+    "specification":"",
+    "note":"E23305XAE51848XAE23043XB33"},
+    {"ptcode":"H23322","model":"T-300BW-r5","image":"DX201t300b_v5.jpg","brief":"22 Inch Capacitive Touch Screen","rprice":"320.00",
+    "description":"","descrp":{"here":false },
+    "specification":"",
+    "note":"E23089XAE23043XB12"},
+    {"ptcode":"H26026","model":"KV-185X-V3PRO","image":"DX1026gi_816v3.jpg","brief":"InAndon KOD Karaoke Player with 18.5 inch touch screen, KV-V3Pro build in 4T HDD, Cloud Songs Download","rprice":"760.00",
+    "description":"user can change system language on your own, there are simply Chinese(by default) Traditional Chinese English Japanese KoreanxxThis machine has powerful land rich film function, with support 4K movies and using external hard driver to play movie ",
+    "descrp":{"here":true,"feature":["user can change system language on your own, there are simply Chinese(by default) Traditional Chinese English Japanese Korean ,","This machine has powerful land rich film function, with support 4K movies and using external hard driver to play movie  ," ]},
+    "specification":"",
+    "note":""}
+    ]
