@@ -49,7 +49,7 @@ var  atransb  = Vue.component('atransb' ,
                       <tr v-for= "(trn, index ) in subd.oneledg"><td>{{trn.trans_no}} </td><td>{{trn.date}}</td><td>{{trn.acc_no}}</td><td>{{trn.acc_nm}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
                       <td>{{trn.referance}}</td><td>{{trn.comment}}</td></tr>
                           </table>
-               <button class="btn btn-primary btn-sm" v-on:click="getrecord(sudb)">Re-Post</button>
+               <button class="btn btn-primary btn-sm" v-on:click="getrecord(subd)">Re-Post</button>
                 {{data}}
                     </div>  ` ,
   data() {
@@ -83,7 +83,7 @@ var  atransb  = Vue.component('atransb' ,
   methods:{
     getrecord(mx) {
          this.b = b+1
-         this.data = this.sudb
+         this.data = mx
          return "yes"
      },
     loadarow(lno) {
