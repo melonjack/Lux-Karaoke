@@ -51,7 +51,7 @@ var  atransb  = Vue.component('atransb' ,
                       <tr v-for= "(trn, index ) in subd.oneledg"><td>{{trn.trans_no}} </td><td>{{trn.date}}</td><td>{{trn.acc_no}}</td><td>{{trn.acc_nm}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
                       <td>{{trn.referance}}</td><td>{{trn.comment}}</td></tr>
                           </table>
-    
+               <button class="btn btn-primary btn-sm" v-on:click="b=b+1">Re-Post</button>
                     </div>  ` ,
   data() {
       return {  
