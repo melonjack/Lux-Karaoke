@@ -82,7 +82,7 @@ var  atransb  = Vue.component('atransb' ,
      },
   methods:{
     getrecord(mx) {
-         this.b = b+1
+         this.b = this.b+1
          this.data = mx
          console.log(this.data)
          return "yes"
