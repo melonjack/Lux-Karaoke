@@ -54,6 +54,7 @@ var  atransb  = Vue.component('atransb' ,
                    <input type="text" class="form-control" id="exampleInputEmail1" v-for="(trn, index ) in data"  v-model="trn.acc_nm">
                     </div>
                     <button type="submit" class="btn btn-info">Submit</button>
+                    </form>
                General Enteries
               </div>
 
