@@ -2,10 +2,7 @@ var  Acctrans = Vue.component('Acctrans' ,
  { 
   props: ['cab','prod'] ,
   template:  ` <div class="fd310"> 
-        <h2><router-link to="/webaccount"> <i class="fas fa-home"> &nbsp;&nbsp;Home</i> </router-link> </h2> &nbsp;&nbsp;
-           &nbsp;&nbsp;<br><br>
-          <i class="fas fa-phone-alt">Try</i> &nbsp;&nbsp;   <i class="fas fa-envelope"></i>
-        <br> {{b}}
+        <h5><router-link to="/webaccount"> <i class="fas fa-home"> &nbsp;&nbsp;Home</i> </router-link> </h5> &nbsp;&nbsp; {{b}}
         <router-view :pbc="b" :subd="prod"></router-view> 
         </div>  `  ,
   data() {
@@ -43,24 +40,35 @@ var  atransb  = Vue.component('atransb' ,
   props: ['subd','pbc'] ,
   template: ` <div class="fd1">
               A General Ledger Record  &nbsp;&nbsp; {{b}} {{acclink}} <br>
-              <table  class="account" >
+              <table  class="account" v-if="tm">
                     <caption> Transation # &nbsp;&nbsp; {{tno}} &nbsp;&nbsp;  &nbsp;&nbsp; Balance: &nbsp;&nbsp; {{subd.blnc}}</caption>
                       <tr><th>Trans No.</th><th>Date</th><th>Account no</th><th>Account Name</th><th>Debit</th><th>Credit</th><th>Referance</th><th>Comment</th></tr>
                       <tr v-for= "(trn, index ) in subd.oneledg"><td>{{trn.trans_no}} </td><td>{{trn.date}}</td><td>{{trn.acc_no}}</td><td>{{trn.acc_nm}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
                       <td>{{trn.referance}}</td><td>{{trn.comment}}</td></tr>
                           </table>
                <button class="btn btn-primary btn-sm" v-on:click="getrecord(subd)">Re-Post</button>
+              <div class="container" v-if="ten">
+                   <form>
+                  <div class="form-group" v-if="ten">
+                   <label for="exampleInputEmail1">Email address</label>
+                   <input type="text" class="form-control" id="exampleInputEmail1" v-for="(trn, index ) in data"  v-model="trn.acc_nm">
+                    </div>
+                    <button type="submit" class="btn btn-info">Submit</button>
+               General Enteries
+              </div>
+
                 {{data}} <br> {{acclink}}
                     </div>  ` ,
   data() {
       return {  
-              tm:  false,
-              tno:243,
-              acclink:'33',
-              data:'L',
-              dt_s:'',
-              dt_e:'',
-              b: 54 
+              tm: true,
+              ten: false,
+              tno: 243,
+              acclink: '33',
+              data: 'L',
+              dt_s: '',
+              dt_e: '',
+              b: 54, 
                 }
    },
   mounted: function(){
@@ -82,7 +90,7 @@ var  atransb  = Vue.component('atransb' ,
   methods:{
     getrecord(mx) {
          this.b = this.b+1
-         this.data = mx
+         this.data = mx.oneledg
          console.log(this.data)
          return "yes"
      },
