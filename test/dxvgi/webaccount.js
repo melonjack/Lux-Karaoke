@@ -2,10 +2,8 @@ var  Acctrans = Vue.component('Acctrans' ,
  { 
   props: ['cab','prod'] ,
   template:  ` <div class="fd310"> 
-        <h2><router-link to="/webaccount"> <i class="fas fa-home"> &nbsp;&nbsp;Home</i> </router-link>  &nbsp;&nbsp;
-           <router-link to="/webaccount/101/atransb"><i class="far fa-address-book"></i> </h2> <br><br>
-        <router-link to="/webaccount/234/atransb" class="btn_pt2"> balance</router-link> &nbsp;&nbsp;<br><br>
-        <router-link to="/webaccount/152/atransb"> <i class="fab fa-angellist">&nbsp;&nbsp; Payment</i> </router-link><br>
+        <h2><router-link to="/webaccount"> <i class="fas fa-home"> &nbsp;&nbsp;Home</i> </router-link> </h2> &nbsp;&nbsp;
+           &nbsp;&nbsp;<br><br>
           <i class="fas fa-phone-alt">Try</i> &nbsp;&nbsp;   <i class="fas fa-envelope"></i>
         <br> {{b}}
         <router-view :pbc="b" :subd="prod"></router-view> 
