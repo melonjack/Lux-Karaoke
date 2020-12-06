@@ -50,7 +50,7 @@ var  atransb  = Vue.component('atransb' ,
                       <td>{{trn.referance}}</td><td>{{trn.comment}}</td></tr>
                           </table>
                <button class="btn btn-primary btn-sm" v-on:click="getrecord(subd)">Re-Post</button>
-                {{data}}
+                {{data}} <br> {{acclink}}
                     </div>  ` ,
   data() {
       return {  
