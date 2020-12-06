@@ -84,6 +84,7 @@ var  atransb  = Vue.component('atransb' ,
     getrecord(mx) {
          this.b = b+1
          this.data = mx
+         console.log(this.data)
          return "yes"
      },
     loadarow(lno) {
