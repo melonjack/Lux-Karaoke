@@ -65,7 +65,6 @@ var  atransb  = Vue.component('atransb' ,
    },
   mounted: function(){
       console.log(this.$route.params.pid)
-      this.acclink = this.getrecord()
       this.tno = this.$route.params.pid 
       this.loadarow(this.tno)
      /*** let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + this.tno
