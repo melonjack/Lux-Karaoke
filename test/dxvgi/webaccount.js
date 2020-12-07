@@ -52,7 +52,7 @@ var  atransb  = Vue.component('atransb' ,
                     Account No: 
                     <select class="form1"  v-model='cno'  v-on:change="onChange" >
                     <option v-for='(val, index) in accounts' :value='val.acc_no' >{{val.acc_name}}</option>
-                    </select> 
+                    </select> <br>
                     Reference No:   <input type="text" class="form1" v-model="tref">
                     Entry Date:  <input type="date" class="form1" v-model="dt0">
                   <br>Customer Name:
@@ -65,9 +65,10 @@ var  atransb  = Vue.component('atransb' ,
                     <tr  v-for="(trn, index ) in data"> <td><input type="text" class="" v-model="trn.acc_nm"></td>
                     <td><input type="text" class="" v-model="trn.debit"></td><input type="text" class="" v-model="trn.credit"></td><td><input type="text" class="" v-model="trn.comment"></td>
                      </tr></table>
-                    <button type="submit" class="btn btn-success">Update</button>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<button type="submit" class="btn btn-info">Submit</button>
+                    <button type="submit" class="btn btn-success" v-on:click="update">Update</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <button type="submit" class="btn btn-info" v-on:click="subMT">Submit</button>
               </div>
-                {{data}} <br>
+               {{acl}}<br> {{data}} <br>
                     </div>  ` ,
   data() {
       return {  
@@ -142,7 +143,7 @@ var  atransb  = Vue.component('atransb' ,
                             mv.credit = 0;
                                   } 
            }
-      mv.comment =  this.data[0].comment ;
+      mv.comment =  cm ;
       mv.acc_no = this.cno
       let mc = this.accounts.find(({ acc_no }) => acc_no === this.cno )
       mv.acc_nm = mc.acc_name
@@ -150,6 +151,12 @@ var  atransb  = Vue.component('atransb' ,
        this.data.push(mv);
           console.log(this.cno)
 
+     },
+     update {
+       this.acl = "Update"
+     },
+     subMT {
+       this.acl = "SUBMIT"
      },
     loadarow(lno) {
          let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + lno
