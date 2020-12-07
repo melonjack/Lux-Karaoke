@@ -101,7 +101,7 @@ var  atransb  = Vue.component('atransb' ,
          this.gur      = JSON.parse(localStorage.getItem('gs_user')) 
          let vacc  =  JSON.parse(localStorage.getItem('accounts'));
          this.accounts = vacc.rows
-         console.log(vacc)
+         console.log(this.accounts)
      },
   beforeRouteUpdate(to,from,next) {
       let val = to.params.pid
