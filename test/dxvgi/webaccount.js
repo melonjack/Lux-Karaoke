@@ -122,12 +122,31 @@ var  atransb  = Vue.component('atransb' ,
          return "yes"
      },
      onChange() {
+      var cc   = 0;
+      var dc = 0;
+      var d =  0;
+      var cm = '';
       let mv = {}
+      let n = this.data.length ;
+      if( n > 0) {
+          for (var i = 0; i < n ; i++ ) {
+            cc += Number(this.data[i].credit) ;
+            dc += Number(this.data[i].debit);
+            cm = this.data[i].comment
+          };
+          d = dc + cc ;
+                  if (dc > cc) {
+                            mv.debit  = 0;
+                            mv.credit = dc-cc } else {
+                            mv.debit  = cc-dc;
+                            mv.credit = 0;
+                                  } 
+               mv.commnet = cm ;
+              }
+     
       mv.acc_no = this.cno
-      mv.acc_nm = "fgr"
-      mv.debit = 23
-      mv.credit= 32
-      this.data.push(mv);
+      mv.acc_nm =   this.accounts.find( ({ acc_name }) => acc_no === this.cno )
+       this.data.push(mv);
           console.log(this.cno)
 
      },
