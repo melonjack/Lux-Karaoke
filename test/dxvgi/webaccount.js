@@ -51,7 +51,7 @@ var  atransb  = Vue.component('atransb' ,
               <div class="container" v-if="ten">
                     Account No: 
                     <select class="form1"  v-model='cno'  v-on:change="onChange" >
-                    <option v-for='(val, index) in acl' :value='val.acc_no' >{{val.acc_name}}</option>
+                    <option v-for='(val, index) in accounts' :value='val.acc_no' >{{val.acc_name}}</option>
                     </select> 
                     Reference No:  <input type="date" class="form1" v-model="dt0">
                   Entry Date: <input type="text" class="form1" v-model="tref"> Customer Name:
@@ -121,7 +121,7 @@ var  atransb  = Vue.component('atransb' ,
          return "yes"
      },
      onChange() {
-      conesole.log(this.cno)
+          conesole.log(this.cno)
      },
     loadarow(lno) {
          let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + lno
