@@ -120,6 +120,9 @@ var  atransb  = Vue.component('atransb' ,
          console.log(this.data)
          return "yes"
      },
+     onChange {
+      conesole.log(this.cno)
+     },
     loadarow(lno) {
          let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + lno
          axios.get(url).then(function(response) {
