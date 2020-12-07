@@ -91,6 +91,8 @@ var  atransb  = Vue.component('atransb' ,
   methods:{
     getrecord(mx) {
          this.b = this.b+1
+         this.tm = false
+         this.ten = true
          this.data = mx.oneledg
          console.log(this.data)
          return "yes"
