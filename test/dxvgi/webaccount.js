@@ -120,7 +120,7 @@ var  atransb  = Vue.component('atransb' ,
          console.log(this.data)
          return "yes"
      },
-     onChange {
+     onChange() {
       conesole.log(this.cno)
      },
     loadarow(lno) {
@@ -130,7 +130,6 @@ var  atransb  = Vue.component('atransb' ,
                   console.log(app.jsdd) ;   }) .catch(function(error){ console.log(error) ;  }) ;   
     } 
     }
-
 }) 
 /****************************************************************************************************************/
 /*******************************************************************************************************************/
