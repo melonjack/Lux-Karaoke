@@ -173,7 +173,7 @@ var  atransb  = Vue.component('atransb' ,
 
                cc = Number(this.data[i].credit) ;
                dc = Number(this.data[i].debit);
-               if(cc=== 0 and dc === 0) {
+               if(cc == 0 && dc == 0) {
                   data.splice(i, 1)
                  }
               }
