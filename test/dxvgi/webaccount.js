@@ -49,13 +49,15 @@ var  atransb  = Vue.component('atransb' ,
                           </table>
                
               <div class="container" v-if="ten">
-                {{dt0}} {{tref}}
-                   Account No: 
+                    Account No: 
                     <select class="form1"  v-model='cno'  v-on:change="onChange" >
                     <option v-for='(val, index) in acl' :value='val.acc_no' >{{val.acc_name}}</option>
                     </select> 
                     Reference No:  <input type="date" class="form1" v-model="dt0">
-                  Entry Date: <input type="text" class="form1" v-model="tref"> Customer Name:GTL Solutions Inc.<br>
+                  Entry Date: <input type="text" class="form1" v-model="tref"> Customer Name:
+                  <select class="form1"  v-model='uid'>
+                  <option v-for='(value, key) in gur.rows' :value='value.id' >{{value.company}}</option>
+                  </select> 
 
                     <table class="account" v-if="ten">
                     <tr><th>Account Name</th><th>Debit</th><th>Credit</th><th>Comment</th></tr>
@@ -94,6 +96,7 @@ var  atransb  = Vue.component('atransb' ,
          this.gur      = JSON.parse(localStorage.getItem('gs_user')) 
          let vacc 
          vacc =  JSON.parse(localStorage.getItem('accouints'));
+         this.accounts = vacc.rows
          console.log(vacc)
      },
   beforeRouteUpdate(to,from,next) {
@@ -109,8 +112,8 @@ var  atransb  = Vue.component('atransb' ,
          this.ten = true
          this.data = mx.oneledg
          let v3 = this.data[0]
-         this.dt0 = this.v3.date
-         this.tref = this.v3.referance        
+         this.dt0 = v3.date
+         this.tref = v3.referance        
          console.log(this.data)
          return "yes"
      },
