@@ -145,7 +145,7 @@ var  atransb  = Vue.component('atransb' ,
               }
      
       mv.acc_no = this.cno
-      mv.acc_nm =   this.accounts.find( ({ acc_name }) => acc_no === this.cno )
+     // mv.acc_nm =   this.accounts.find( ({ acc_name }) => acc_no === this.cno )
        this.data.push(mv);
           console.log(this.cno)
 
