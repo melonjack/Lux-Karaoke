@@ -48,13 +48,11 @@ var  atransb  = Vue.component('atransb' ,
                           </table>
                <button class="btn btn-primary btn-sm" v-on:click="getrecord(subd)">Re-Post</button>
               <div class="container" v-if="ten">
-                   <form>
-                  <div class="form-group" v-if="ten">
-                   <label for="exampleInputEmail1">Email address</label>
-                   <input type="text" class="form-control" id="exampleInputEmail1" v-for="(trn, index ) in data"  v-model="trn.acc_nm">
-                    </div>
+                    <table class="account" v-if="ten">
+                    <tr  v-for="(trn, index ) in data"> <td><input type="text" class="" v-model="trn.acc_nm"></td><td><input type="text" class="" v-model="trn.acc_no"></td>
+                    <td><input type="text" class="" v-model="trn.acc_debit"></td><input type="text" class="" v-model="trn.acc_crdit"></td></tr></table>
                     <button type="submit" class="btn btn-info">Submit</button>
-                    </form>
+                   
                General Enteries
               </div>
 
