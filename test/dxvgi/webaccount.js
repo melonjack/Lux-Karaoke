@@ -53,12 +53,11 @@ var  atransb  = Vue.component('atransb' ,
                     <select class="form1"  v-model='cno'  v-on:change="onChange" >
                     <option v-for='(val, index) in accounts' :value='val.acc_no' >{{val.acc_name}}</option>
                     </select> <br>
-                    Reference No:   <input type="text" class="form1" v-model="tref">
-                    Entry Date:  <input type="date" class="form1" v-model="dt0">
-                  <br>Customer Name:
-                  <select class="form1"  v-model='uid'>
-                  <option v-for='(value, key) in gur.rows' :value='value.id' >{{value.company}}</option>
-                  </select> 
+                    Entry Date:  <input type="date" class="form1" v-model="dt0"> Reference No:   <input type="text" class="form1" v-model="tref">
+                    Customer Name:
+                     <select class="form1"  v-model='uid'>
+                     <option v-for='(value, key) in gur.rows' :value='value.id' >{{value.company}}</option>
+                     </select> 
 
                     <table class="account" v-if="ten">
                     <tr><th>Account Name</th><th>Debit</th><th>Credit</th><th>Comment</th></tr>
@@ -68,6 +67,11 @@ var  atransb  = Vue.component('atransb' ,
                     <button type="submit" class="btn btn-success" v-on:click="update">Update</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                     <button type="submit" class="btn btn-info" v-on:click="subMT">Submit</button>
               </div>
+              <div v-if="dup" >
+               <ul>
+                <li v-for="(trn, index ) in data"> {{trn}} </li>
+                 </ul>
+               </div>
                {{acl}}<br> {{data}} <br>
                     </div>  ` ,
   data() {
@@ -79,6 +83,7 @@ var  atransb  = Vue.component('atransb' ,
               data: 'L',
               dt0: "2020-10-10",
               tref: "generl Entry",
+              dup: false,
               dt_s: '',
               dt_e: '',
               cno: 30200,
@@ -154,9 +159,18 @@ var  atransb  = Vue.component('atransb' ,
      },
      update() {
        this.acl = "Update"
+       this.dup = true
+       let n = this.data.length ;
+      if( n > 0) {
+          for (var i = 0; i < n ; i++ ) {
+            this.data[i].date = this.dt0
+            this.data[i].referance = this.tref
+           }
+          }
      },
      subMT() {
        this.acl = "SUBMIT"
+       this.dup = false
      },
     loadarow(lno) {
          let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + lno
