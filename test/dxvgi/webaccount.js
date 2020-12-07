@@ -145,7 +145,8 @@ var  atransb  = Vue.component('atransb' ,
       mv.comment =  this.data[0].comment ;
       mv.acc_no = this.cno
       let mc = this.accounts.find(({ acc_no }) => acc_no === this.cno )
-      console.log(mc)
+      mv.acc_nm = mc.acc_name
+      console.log(cm)
        this.data.push(mv);
           console.log(this.cno)
 
