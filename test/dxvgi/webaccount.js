@@ -125,7 +125,7 @@ var  atransb  = Vue.component('atransb' ,
       var cc   = 0;
       var dc = 0;
       var d =  0;
-      var cm = '';
+      let cm = '';
       let mv = {}
       let n = this.data.length ;
       if( n > 0) {
@@ -141,9 +141,8 @@ var  atransb  = Vue.component('atransb' ,
                             mv.debit  = cc-dc;
                             mv.credit = 0;
                                   } 
-               mv.commnet = cm ;
-              }
-     
+           }
+      mv.commnet = cm ;
       mv.acc_no = this.cno
      // mv.acc_nm =   this.accounts.find( ({ acc_name }) => acc_no === this.cno )
        this.data.push(mv);
