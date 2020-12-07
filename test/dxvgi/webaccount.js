@@ -152,10 +152,10 @@ var  atransb  = Vue.component('atransb' ,
           console.log(this.cno)
 
      },
-     update {
+     update() {
        this.acl = "Update"
      },
-     subMT {
+     subMT() {
        this.acl = "SUBMIT"
      },
     loadarow(lno) {
