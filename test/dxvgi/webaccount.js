@@ -73,7 +73,7 @@ var  atransb  = Vue.component('atransb' ,
                <tr  v-for="(trn, index ) in data">
                 <td>{{trn.date}}</dt><td>{{trn.acc_no}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
                       <td>{{trn.referance}}</td><td>{{trn.comment}}</td><td>{{trn.cid}}</td>
-                 </tr>
+                 </tr></table>
                </div>
                {{acl}}<br> {{data}} <br>
                     </div>  ` ,
@@ -174,7 +174,7 @@ var  atransb  = Vue.component('atransb' ,
                cc = Number(this.data[i].credit) ;
                dc = Number(this.data[i].debit);
                if(cc == 0 && dc == 0) {
-                  data.splice(i, 1)
+                  this.data.splice(i, 1)
                  }
               }
           }
