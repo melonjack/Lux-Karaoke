@@ -37,7 +37,7 @@ var  atransb  = Vue.component('atransb' ,
  { 
   props: ['subd','pbc'] ,
   template: ` <div class="fd1">
-              A General Ledger Record  &nbsp;&nbsp; {{b}} {{acclink}} {{tref}} {{dt0}} <br>
+              A General Ledger Entries  &nbsp;&nbsp; <br>
               <table  class="account" v-if="tm">
                     <caption> Transation # &nbsp;&nbsp; {{tno}} &nbsp;&nbsp;  &nbsp;&nbsp; Balance: &nbsp;&nbsp; {{subd.blnc}}
                      <button class="btn btn-primary btn-sm" v-on:click="getrecord(subd)">Re-Post</button></caption>
@@ -64,7 +64,7 @@ var  atransb  = Vue.component('atransb' ,
                     <tr  v-for="(trn, index ) in data"> <td><input type="text" class="" v-model="trn.acc_nm"></td>
                     <td><input type="text" class="" v-model="trn.debit"></td><input type="text" class="" v-model="trn.credit"></td><td><input type="text" class="" v-model="trn.comment"></td>
                      </tr></table>
-                    <button type="submit" class="btn btn-success">Update</button>&nbsp;&nbsp; &nbsp;&nbsp;<button type="submit" class="btn btn-info">Submit</button>
+                    <button type="submit" class="btn btn-success">Update</button>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<button type="submit" class="btn btn-info">Submit</button>
               </div>
                 {{data}} <br>
                     </div>  ` ,
@@ -79,7 +79,11 @@ var  atransb  = Vue.component('atransb' ,
               tref: "generl Entry",
               dt_s: '',
               dt_e: '',
-              b: 54,
+              cno: 30200,
+              acl:'',
+              b: 54 ,
+              ledger22:{},
+              uid:109,
               gur:'',
               accounts:'' 
                 }
@@ -94,8 +98,7 @@ var  atransb  = Vue.component('atransb' ,
                 console.log(app.jsdd) ;  }) .catch(function(error){ console.log(error) ;  }) ;     
           ***/
          this.gur      = JSON.parse(localStorage.getItem('gs_user')) 
-         let vacc 
-         vacc =  JSON.parse(localStorage.getItem('accouints'));
+         let vacc  =  JSON.parse(localStorage.getItem('accounts'));
          this.accounts = vacc.rows
          console.log(vacc)
      },
