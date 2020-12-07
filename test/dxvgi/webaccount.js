@@ -142,7 +142,7 @@ var  atransb  = Vue.component('atransb' ,
                             mv.credit = 0;
                                   } 
            }
-      mv.commnet = cm ;
+      mv.commnet =  this.data[0].comment ;
       mv.acc_no = this.cno
       mv.acc_nm = this.accounts.find(({ acc_name }) => acc_no === this.cno )
        this.data.push(mv);
