@@ -48,10 +48,14 @@ var  atransb  = Vue.component('atransb' ,
                           </table>
                <button class="btn btn-primary btn-sm" v-on:click="getrecord(subd)">Re-Post</button>
               <div class="container" v-if="ten">
+              Account No: Loan (From Shareholder) Reference No: General Entries Entry Date: <input type="date" class="form1" v-model="dt0"> Customer Name:GTL Solutions Inc.<br>
+
                     <table class="account" v-if="ten">
-                    <tr  v-for="(trn, index ) in data"> <td><input type="text" class="" v-model="trn.acc_nm"></td><td><input type="text" class="" v-model="trn.acc_no"></td>
-                    <td><input type="text" class="" v-model="trn.acc_debit"></td><input type="text" class="" v-model="trn.acc_crdit"></td></tr></table>
-                    <button type="submit" class="btn btn-info">Submit</button>
+                    <tr><th>Trans No.</th><th>Date</th><th>Account no</th><th>Account Name</th><th>Debit</th><th>Credit</th><th>Referance</th><th>Comment</th></tr>
+                    <tr  v-for="(trn, index ) in data"> <td><input type="text" class="" v-model="trn.acc_nm"></td>
+                    <td><input type="text" class="" v-model="trn.debit"></td><input type="text" class="" v-model="trn.crdit"></td><td><input type="text" class="" v-model="trn.comment"></td>
+                     </tr></table>
+                    <button type="submit" class="btn btn-success">Update</button> <button type="submit" class="btn btn-info">Submit</button>
                    
                General Enteries
               </div>
@@ -65,6 +69,7 @@ var  atransb  = Vue.component('atransb' ,
               tno: 243,
               acclink: '33',
               data: 'L',
+              dt0: "2020-10-10",
               dt_s: '',
               dt_e: '',
               b: 54, 
@@ -92,6 +97,7 @@ var  atransb  = Vue.component('atransb' ,
          this.tm = false
          this.ten = true
          this.data = mx.oneledg
+         this.dt0 = this.data.date        
          console.log(this.data)
          return "yes"
      },
