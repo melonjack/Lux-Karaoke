@@ -28,9 +28,7 @@ beforeRouteUpdate(to,from,next) {
 mounted: function(){
     this.lnk = '/webaccount/'+'257'+'/atransb' ; 
     this.title = this.$route.params.pid
-    console.log(this.$route.params.pid) ;
-    
-}
+ }
 }) 
 /******************************************************************************************************************/
 /***                                    Component atrans b  for accounting     October   2020     Michael       ***/
@@ -39,14 +37,17 @@ var  atransb  = Vue.component('atransb' ,
  { 
   props: ['subd','pbc'] ,
   template: ` <div class="fd1">
-              A General Ledger Record  &nbsp;&nbsp; {{b}} {{acclink}} <br>
+              A General Ledger Record  &nbsp;&nbsp; {{b}} {{acclink}} {{tref}} {{dt0}} <br>
               <table  class="account" v-if="tm">
-                    <caption> Transation # &nbsp;&nbsp; {{tno}} &nbsp;&nbsp;  &nbsp;&nbsp; Balance: &nbsp;&nbsp; {{subd.blnc}}</caption>
+                    <caption> Transation # &nbsp;&nbsp; {{tno}} &nbsp;&nbsp;  &nbsp;&nbsp; Balance: &nbsp;&nbsp; {{subd.blnc}}
+                     <button class="btn btn-primary btn-sm" v-on:click="getrecord(subd)">Re-Post</button></caption>
                       <tr><th>Trans No.</th><th>Date</th><th>Account no</th><th>Account Name</th><th>Debit</th><th>Credit</th><th>Referance</th><th>Comment</th></tr>
+                      <tbody>
                       <tr v-for= "(trn, index ) in subd.oneledg"><td>{{trn.trans_no}} </td><td>{{trn.date}}</td><td>{{trn.acc_no}}</td><td>{{trn.acc_nm}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
                       <td>{{trn.referance}}</td><td>{{trn.comment}}</td></tr>
+                      </tbody>
                           </table>
-               <button class="btn btn-primary btn-sm" v-on:click="getrecord(subd)">Re-Post</button>
+               
               <div class="container" v-if="ten">
                    Account No: Loan (From Shareholder) Reference No:  <input type="date" class="form1" v-model="dt0">
                   Entry Date: <input type="text" class="form1" v-model="tref"> Customer Name:GTL Solutions Inc.<br>
@@ -56,12 +57,9 @@ var  atransb  = Vue.component('atransb' ,
                     <tr  v-for="(trn, index ) in data"> <td><input type="text" class="" v-model="trn.acc_nm"></td>
                     <td><input type="text" class="" v-model="trn.debit"></td><input type="text" class="" v-model="trn.credit"></td><td><input type="text" class="" v-model="trn.comment"></td>
                      </tr></table>
-                    <button type="submit" class="btn btn-success">Update</button> <button type="submit" class="btn btn-info">Submit</button>
-                   
-               General Enteries
+                    <button type="submit" class="btn btn-success">Update</button>&nbsp;&nbsp; &nbsp;&nbsp;<button type="submit" class="btn btn-info">Submit</button>
               </div>
-
-                {{data}} <br> {{acclink}}
+                {{data}} <br>
                     </div>  ` ,
   data() {
       return {  
