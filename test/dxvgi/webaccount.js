@@ -92,6 +92,7 @@ var  atransb  = Vue.component('atransb' ,
               data: 'L',
               dt0: "2020-10-10",
               tref: "generl Entry",
+              stat1:"save to DB",
               dup: false,
               dsub: false,
               dt_s: '',
@@ -193,6 +194,15 @@ var  atransb  = Vue.component('atransb' ,
        this.acl  = "SUBMIT"
        this.dsub = true
        this.dup  = false
+       let url = './src/php/db_write.php?act=new'; 
+                let passdata = {first:32,second:"opp",third:["fg","RT","try"]}
+                axios.post(url, JSON.stringify(passdata)).then(function (response) {
+                                console.log(response.data);
+                              }).catch(function (error) {
+                                console.log(error);
+                                    });
+            this.stat1 = "New Transation completed !" ;
+            console.log(this.stat1) ;
      },
     loadarow(lno) {
          let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + lno
