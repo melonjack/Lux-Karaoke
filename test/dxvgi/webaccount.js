@@ -55,7 +55,7 @@ var  atransb  = Vue.component('atransb' ,
                       </div>
                     <select class="custom-select" id="inputg1"  v-model='cno'  v-on:change="onChange" >
                     <option v-for='(val, index) in accounts' :value='val.acc_no' >{{val.acc_name}}</option>
-                    </select> </div>
+                    </select> </div><br><br>
                     Entry Date:  <input type="date" class="form1" v-model="dt0"> Reference No:   <input type="text" class="form1" v-model="tref">
                     Customer Name:
                      <select class="form1"  v-model='uid'>
@@ -79,7 +79,7 @@ var  atransb  = Vue.component('atransb' ,
                  </tr></table>
                </div>
                {{acl}}<br> 
-               <div class="class="alert alert-danger"" v-if="dsub" >
+               <div class="alert alert-danger" v-if="dsub" >
                    {{acl}} 
                    </div>
                     </div>  ` ,
