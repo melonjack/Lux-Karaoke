@@ -195,7 +195,7 @@ var  atransb  = Vue.component('atransb' ,
        this.dsub = true
        this.dup  = false
        let url = './src/php/db_write.php?act=new'; 
-                let passdata = {first:32,second:"opp",third:["fg","RT","try"]}
+                let passdata = this.data
                 axios.post(url, JSON.stringify(passdata)).then(function (response) {
                                 console.log(response.data);
                               }).catch(function (error) {
