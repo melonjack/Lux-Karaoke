@@ -51,7 +51,7 @@ var  atransb  = Vue.component('atransb' ,
               <div class="container" v-if="ten">
                 <div class="input-group ">
                     <div class="input-group-prepend">
-                    <label class+"input-group-text" for="inputg1"> Account No: </label>
+                    <label class="input-group-text" for="inputg1"> Account No: </label>
                       </div>
                     <select class="custom-select" id="inputg1"  v-model='cno'  v-on:change="onChange" >
                     <option v-for='(val, index) in accounts' :value='val.acc_no' >{{val.acc_name}}</option>
