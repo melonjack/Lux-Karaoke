@@ -67,8 +67,8 @@ var  atransb  = Vue.component('atransb' ,
                     <button type="submit" class="btn btn-success" v-on:click="update">Update</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                     <button type="submit" class="btn btn-info" v-on:click="subMT">Submit</button>
               </div>
-              <div v-if="dup" >
-               <table>
+              <div class="container shadow" v-if="dup" >
+               <table class="table">
                <tr><th>Date</th><th>Account No.</th><th>Debit</th><th>Credit</th><th>Reference</th><th>Comment</th><th>Customer ID</th></tr>
                <tr  v-for="(trn, index ) in data">
                 <td>{{trn.date}}</dt><td>{{trn.acc_no}}</td><td>{{trn.debit}}</td><td>{{trn.credit}}</td>
@@ -170,6 +170,7 @@ var  atransb  = Vue.component('atransb' ,
           for (var i = 0; i < n ; i++ ) {
             this.data[i].date = this.dt0
             this.data[i].referance = this.tref
+            this.data[i].cid = this.uid
 
                cc = Number(this.data[i].credit) ;
                dc = Number(this.data[i].debit);
