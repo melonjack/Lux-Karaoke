@@ -2,7 +2,7 @@ var  Acctrans = Vue.component('Acctrans' ,
  { 
   props: ['cab','prod'] ,
   template:  ` <div class="fd310"> 
-        <h5><router-link to="/webaccount"> <i class="fas fa-home"> &nbsp;&nbsp;Home</i> </router-link> </h5> &nbsp;&nbsp; {{b}}
+        <h5><router-link to="/webaccount"> <i class="fas fa-home"> &nbsp;&nbsp;Home</i> </router-link> </h5> 
         <router-view :pbc="b" :subd="prod"></router-view> 
         </div>  `  ,
   data() {
@@ -55,12 +55,12 @@ var  atransb  = Vue.component('atransb' ,
                       </div>
                     <select class="custom-select" id="inputg1"  v-model='cno'  v-on:change="onChange" >
                     <option v-for='(val, index) in accounts' :value='val.acc_no' >{{val.acc_name}}</option>
-                    </select> <br>
+                    </select> </div>
                     Entry Date:  <input type="date" class="form1" v-model="dt0"> Reference No:   <input type="text" class="form1" v-model="tref">
                     Customer Name:
                      <select class="form1"  v-model='uid'>
                      <option v-for='(value, key) in gur.rows' :value='value.id' >{{value.company}}</option>
-                     </select> </div>
+                     </select> 
 
                     <table class="account" v-if="ten">
                     <tr><th>Account Name</th><th>Debit</th><th>Credit</th><th>Comment</th></tr>
@@ -68,7 +68,7 @@ var  atransb  = Vue.component('atransb' ,
                     <td><input type="text" class="" v-model="trn.debit"></td><input type="text" class="" v-model="trn.credit"></td><td><input type="text" class="" v-model="trn.comment"></td>
                      </tr></table>
                     <button type="submit" class="btn btn-success" v-on:click="update">Update</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                    <button type="submit" class="btn btn-info" v-on:click="subMT">Submit</button>
+                    <button type="submit" class="btn btn-info" v-on:click="subMT">Submit</button>  &nbsp;&nbsp;&nbsp; Balance: {{b}}
               </div>
               <div class="container shadow" v-if="dup" >
                <table class="table">
@@ -78,7 +78,10 @@ var  atransb  = Vue.component('atransb' ,
                       <td>{{trn.referance}}</td><td>{{trn.comment}}</td><td>{{trn.cid}}</td>
                  </tr></table>
                </div>
-               {{acl}}<br> {{data}} <br>
+               {{acl}}<br> 
+               <div class="class="alert alert-danger"" v-if="dsub" >
+                   {{acl}} 
+                   </div>
                     </div>  ` ,
   data() {
       return {  
@@ -90,6 +93,7 @@ var  atransb  = Vue.component('atransb' ,
               dt0: "2020-10-10",
               tref: "generl Entry",
               dup: false,
+              dsub: false,
               dt_s: '',
               dt_e: '',
               cno: 30200,
@@ -154,6 +158,7 @@ var  atransb  = Vue.component('atransb' ,
                             mv.credit = 0;
                                   } 
            }
+      this.b = d     
       mv.comment =  cm ;
       mv.acc_no = this.cno
       let mc = this.accounts.find(({ acc_no }) => acc_no === this.cno )
@@ -164,10 +169,11 @@ var  atransb  = Vue.component('atransb' ,
 
      },
      update() {
-       this.acl = "Update"
-       this.dup = true
-       var cc   = 0;
-      var dc = 0;
+       this.acl  = "Update"
+       this.dup  = true
+       this.dsub = false
+       var cc    = 0;
+       var dc    = 0;
        let n = this.data.length ;
       if( n > 0) {
           for (var i = 0; i < n ; i++ ) {
@@ -184,8 +190,9 @@ var  atransb  = Vue.component('atransb' ,
           }
      },
      subMT() {
-       this.acl = "SUBMIT"
-       this.dup = false
+       this.acl  = "SUBMIT"
+       this.dsub = true
+       this.dup  = false
      },
     loadarow(lno) {
          let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + lno
