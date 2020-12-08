@@ -49,15 +49,18 @@ var  atransb  = Vue.component('atransb' ,
                           </table>
                
               <div class="container" v-if="ten">
-                    Account No: 
-                    <select class="form1"  v-model='cno'  v-on:change="onChange" >
+                <div class="input-group ">
+                    <div class="input-group-prepend">
+                    <label class+"input-group-text" for+"inputg1"> Account No: </label>
+                      </div>
+                    <select class="custom-select" id="inputg1"  v-model='cno'  v-on:change="onChange" >
                     <option v-for='(val, index) in accounts' :value='val.acc_no' >{{val.acc_name}}</option>
                     </select> <br>
                     Entry Date:  <input type="date" class="form1" v-model="dt0"> Reference No:   <input type="text" class="form1" v-model="tref">
                     Customer Name:
                      <select class="form1"  v-model='uid'>
                      <option v-for='(value, key) in gur.rows' :value='value.id' >{{value.company}}</option>
-                     </select> 
+                     </select> </div>
 
                     <table class="account" v-if="ten">
                     <tr><th>Account Name</th><th>Debit</th><th>Credit</th><th>Comment</th></tr>
