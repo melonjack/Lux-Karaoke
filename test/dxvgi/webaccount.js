@@ -118,8 +118,7 @@ var  atransb  = Vue.component('atransb' ,
          this.gur      = JSON.parse(localStorage.getItem('gs_user')) 
          let vacc  =  JSON.parse(localStorage.getItem('accounts'));
          this.accounts = vacc.rows
-         console.log(this.accounts)
-     },
+       },
   beforeRouteUpdate(to,from,next) {
       let val = to.params.pid
       this.b  = val 
@@ -207,8 +206,7 @@ var  atransb  = Vue.component('atransb' ,
     loadarow(lno) {
          let url = 'http://www.gecontech.com/magento/mgc20/src/php/api_db_2020.php?action=onetrans&tt_no=' + lno
          axios.get(url).then(function(response) {
-                  app.jsdd = response.data ;   
-                  console.log(app.jsdd) ;   }) .catch(function(error){ console.log(error) ;  }) ;   
+                  app.jsdd = response.data ;    }) .catch(function(error){ console.log(error) ;  }) ;   
     } 
     }
 }) 
