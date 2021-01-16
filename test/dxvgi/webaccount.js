@@ -150,7 +150,7 @@ var  atransb  = Vue.component('atransb' ,
             dc += Number(this.data[i].debit);
             cm = this.data[i].comment
           };
-          d = dc + cc ;
+          d = dc - cc ;
                   if (dc > cc) {
                             mv.debit  = 0;
                             mv.credit = dc-cc } else {
@@ -174,6 +174,7 @@ var  atransb  = Vue.component('atransb' ,
        this.dsub = false
        var cc    = 0;
        var dc    = 0;
+       var d =  0;
        let n = this.data.length ;
       if( n > 0) {
           for (var i = 0; i < n ; i++ ) {
@@ -183,10 +184,12 @@ var  atransb  = Vue.component('atransb' ,
 
                cc = Number(this.data[i].credit) ;
                dc = Number(this.data[i].debit);
+               d += dc - cc ;
                if(cc == 0 && dc == 0) {
                   this.data.splice(i, 1)
                  }
               }
+           this.b = d
           }
      },
      subMT() {
