@@ -1,118 +1,674 @@
-[
-    {"ptcode":"E21010","model":"KW-310  ","image":"3Way-10Ktvspeaker.jpg","brief":"FDB KW-310 a premium full-range speaker special for Karaoke system.","rprice":"450.00",
-    "pname":"FDB 10 Inch Speaker",
-    "descrp":{"here":true,"feature":["The KW-310 speaker is designed to use for karaoke balcony. ,"," It features a long-excursion 10inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driver ,","Precision engineered crossover for optimal power response and performance in the critical mid-range region   ," ]},
-    "catalog":"210",
-    "speciff":{"here":true,"feature":[
-    {"name":" Frequency Response ","sval":" 45 Hz -18K Hz(-3db) ; 40 Hz - 20K Hz (-10db) "},
-    {"name":" Reated Power ","sval":"250W RMS "},
-    {"name":" Recommed Amplifier ","sval":" 150W - 300 W  (4 ohms) "},
-    {"name":" Sensitivity ","sval":" 92db 1 Watt/metre "},
-    {"name":" Impendance ","sval":" 8 ohms nominal "},
-    {"name":" Cross over ","sval":" 1.5 kHz passiEnclosure  "},
-    {"name":" Finish ","sval":" Black Paint "},
-    {"name":" Protective Grille ","sval":" Black perforated steel "},
-    {"name":" Fittings ","sval":" 2 x M8 insert wall bracket "},
-    {"name":" Dimensions ","sval":" 508mmx 200mmx271mm  "},
-    {"name":" Weight ","sval":" 10.5Kg   "} ]},
-    "ntimg":["fdb20201114kw310b.jpg"],
-    "note":"E21010XMfdb20201114kw310b.jpgXM12"},
-    {"ptcode":"E23008","model":"KV-V5","image":"1d02Ekv-v5max29F20.jpg","brief":"InAndon Karaoke Player ,4T HDD with 98K songs, huge cloud songs download. Newest model (KV-V5 Pro + 4TB HDD )","rprice":"720.00",
-    "pname":"InAndon Karaoke Player ",
-    "descrp":{"here":true,"feature":["This product is a Hi-Tech computer base multimedia machine. It is a professional karaoke entertainment device ,","High Definition 4K Output ,","Built-in wifi,With Chinese Cantonese Taiwanese English vietnamese Songs ,","Play sources from USB, including formats such as DVD,VCD,CD and so on, and brings you into the excellent experience of video playing ,","Songs from Cloud with a huge song Database ,","Package Includes: KV-V5 Pro karaoke player,power adpter 12V/2A Audio/Video RCA Cable, user operate guide ," ]},
-    "catalog":"206",
-    "speciff":{"here":true,"feature":[
-    {"name":" Video output port","sval":"HDMI "},
-    {"name":" Audio port","sval":"1(RL channels) "},
-    {"name":" Coaxial outpot","sval":"1 "},
-    {"name":" Optical output","sval":"1 "},
-    {"name":" Recording port","sval":"1 "},
-    {"name":" Touch screen RJ45 port","sval":"1 "},
-    {"name":" Network RJ45 port","sval":"1VGA port "},
-    {"name":" USB port","sval":"3 (Panel USB*1,backpanel USB*2) "},
-    {"name":" Analog sound output","sval":"Stero R/L 1 K Ohm 20HZ-20KHZ "},
-    {"name":" VGA Output","sval":"RGB 75 Ohm Monitor "},
-    {"name":" Input voltage","sval":"DC 12V "},
-    {"name":" Rated power","sval":"30W(4A) "},
-    {"name":" Size","sval":"400*250*170(mm) "},
-    {"name":" Weight","sval":"5KG   "} ]},
-    "ntimg":["1d023KV-v529C20.jpg","1d028KV-v529D20.jpg","1d013kv-v5s28720.jpg","1d02Hkv-v5max29K20.jpg"],
-    "note":"495x400x152XM1d023KV-v529C20.jpgXM1d028KV-v529D20.jpgXM1d013kv-v5s28720.jpgXM1d02Hkv-v5max29K20.jpgXMKV12"},
-    {"ptcode":"E23024","model":"KV-815X5","image":"1d27Hkv-815X5MAX33J20.jpg","brief":" InAndon KV-V5Pro All In One Karaoke  Player with 4T HDD 90K Songs Build in, HI Fine 18.5 Inch Touch Screen, Cloud Song Download, including Huge Chinese, English, Vietnamese songs ","rprice":"868.00",
-    "pname":"InAndon KOD w.  18.5inch  LC",
-    "descrp":{"here":true,"feature":["This karaoke player is a Hi-Tech computer base multimedia machine ,"," Play sources from USB, including formats such as DVD,VCD,CD and so on ,","18.5 inch Touch Screen LCD Monitor ,","mobile phone order songs and voice control to order songs ," ]},
-    "catalog":"206",
-    "speciff":{"here":true,"feature":[
-    {"name":" Video output port","sval":"HDMI "},
-    {"name":" Audio port","sval":"1(RL channels) "},
-    {"name":" Coaxial outpot","sval":"1 "},
-    {"name":" Optical output","sval":"1 "},
-    {"name":" Recording port","sval":"1 "},
-    {"name":" Touch screen RJ45 port","sval":"1 "},
-    {"name":" Network RJ45 port","sval":"1VGA port "},
-    {"name":" USB port","sval":"3 (Panel USB*1,backpanel USB*2) "},
-    {"name":" Analog sound output","sval":"Stero R/L 1 K Ohm 20HZ-20KHZ "},
-    {"name":" VGA Output","sval":"RGB 75 Ohm Monitor "},
-    {"name":" Input voltage","sval":"DC 12V "},
-    {"name":" Rated power","sval":"30W(4A) "},
-    {"name":" Size","sval":"400*250*170(mm) "},
-    {"name":" Weight","sval":"5KG   "} ]},
-    "ntimg":["1d028KV-v529D20.jpg","1d02BKV-v5p29E20.jpg"],
-    "note":"opt52XM1d028KV-v529D20.jpgXM1d02BKV-v5p29E20.jpgXMV12"},
-    {"ptcode":"E23153","model":"KV-V3","image":"20180KV-V3.jpg","brief":"InAndon Karaoke Player KV-V3Pro with 4T HDD, Cloud Songs Download","rprice":"450.00",
-    "pname":"InAndon Karaoke Player ",
-    "descrp":{"here":true,"feature":["This product is a Hi-Tech computer base multimedia machine. It is a professional karaoke entertainment device ,","It has a powerful and rich film function which support 4K movie ,","Play sources from USB, including formats such as DVD,VCD,CD and so on, and brings you into the excellent experience of video playing   ," ]},
-    "catalog":"206",
-    "speciff":{"here":true,"feature":[
-    {"name":" Video output port","sval":"HDMI "},
-    {"name":" Audio port","sval":"1(RL channels) "},
-    {"name":" Coaxial outpot","sval":"1 "},
-    {"name":" Optical output","sval":"1 "},
-    {"name":" Recording port","sval":"1 "},
-    {"name":" Touch screen RJ45 port","sval":"1 "},
-    {"name":" Network RJ45 port","sval":"1VGA port "},
-    {"name":" USB port","sval":"3 (Panel USB*1,backpanel USB*2) "},
-    {"name":" Analog sound output","sval":"Stero R/L 1 Kohm 20HZ-20KHZ "},
-    {"name":" VGA Output","sval":"RGB 75ohm Monitor "},
-    {"name":" Input voltage","sval":"DC 12V "},
-    {"name":" Rated power","sval":"30W(4A) "},
-    {"name":" Size","sval":"400*250*170(mm) "},
-    {"name":" Weight","sval":"5KG "} ]},
-    "ntimg":["1d02Gke-v3p29H20.png","1d01Bkv-v3h28C20.jpg","1d02Fke-v3p29G20.jpg"],
-    "note":"325x95x470 <img>XM1d02Gke-v3p29H20.pngXM1d01Bkv-v3h28C20.jpgXM1d02Fke-v3p29G20.jpgXM123"},
-    {"ptcode":"H23152","model":"KV-15X3-d42","image":"1d01FKV-X38G20.jpg","brief":"InAndon KOD Karaoke Player with 15.6 inch touch screen, KV-V3Pro build in 4T/2TB  HDD, Cloud Songs Download","rprice":"0.00",
-    "pname":"InAndon All in one KOD ",
-    "descrp":{"here":true,"feature":["This product is a Hi-Tech computer base multimedia machine. It is a professional karaoke entertainment device ,","High Definition 4K HDMI Output ,","Built-in wifi,With Chinese Cantonese Taiwanese English vietnamese Songs ,","Play sources from USB, including formats such as DVD,VCD,CD and so on, and brings you into the excellent experience of video playing ,","download songs from Cloud with a huge song Database ," ]},
-    "catalog":"265",
-    "ntimg":["1d021KV-X329A2020.jpg"],
-    "note":"E23033XAE51812XB12XM1d021KV-X329A2020.jpgXM21"},
-    {"ptcode":"H23319","model":"KV-215W-d4","image":"1d015kv220v5s28920.jpg","brief":"InAndon KV-V5Pro All In One Karaoke Player with 4T HDD 90K Songs Build in, HI Fine 22 Inch Touch Screen, Cloud Song Download","rprice":"830.00",
-    "pname":"InAndOn KOD w.LCD",
-    "descrp":{"here":true,"feature":["This karaoke player is a Hi-Tech computer base multimedia machine ,","Play sources from USB, including formats such as DVD,VCD,CD and so on ,","21.5 inch Touch Screen LCD Monitor ,","mobile phone order songs and voice control to order ,","Built-in wifi,With Chinese Cantonese Taiwanese English vietnamese Songs ," ]},
-    "catalog":"265",
-    "note":"E23305XAE51848XAE23043XB33"},
-    {"ptcode":"H23322","model":"T-300BW-r5","image":"1d019t300bw28A20.jpg","brief":"22 Inch Capacitive Touch Screen using for InAndon Karaoke Player","rprice":"320.00",
-    "pname":"Touch Screen 22 Inch ","descrp":{"here":false },
-    "catalog":"265",
-    "note":"E23089XAE23043XB12"},
-    {"ptcode":"H26026","model":"KV-185X-V3-d4","image":"1d26Ekv-815v3pro32G20.jpg","brief":"InAndon KOD Karaoke Player with 18.5 inch touch screen, KV-V3Pro build in 4T HDD, Cloud Songs Download","rprice":"760.00",
-    "pname":"InAndon All inOne Kod Player",
-    "descrp":{"here":true,"feature":["user can change system language on your own, there are simply Chinese(by default) Traditional Chinese English Japanese Korean ,","This machine has powerful land rich film function, with support 4K movies and using external hard driver to play movie  ," ]},
-    "catalog":"265",
-    "speciff":{"here":true,"feature":[
-    {"name":" Video output port","sval":"HDMI "},
-    {"name":" Audio port","sval":"1(RL channels) "},
-    {"name":" Coaxial outpot","sval":"1 "},
-    {"name":" Optical output","sval":"1 "},
-    {"name":" Recording port","sval":"1 "},
-    {"name":" Touch screen RJ45 port","sval":"1 "},
-    {"name":" Network RJ45 port","sval":"1VGA port "},
-    {"name":" USB port","sval":"3 (Panel USB*1,backpanel USB*2) "},
-    {"name":" Analog sound output","sval":"Stero R/L 1 Kohm 20HZ-20KHZ "},
-    {"name":" VGA Output","sval":"RGB 75ohm Monitor "},
-    {"name":" Input voltage","sval":"DC 12V "},
-    {"name":" Rated power","sval":"30W(4A) "},
-    {"name":" Size","sval":"400*250*170(mm) "},
-    {"name":" Weight","sval":"5KG "} ]},
-    "note":""}
-    ]
+[{
+    "ptcode": "E11010",
+    "model": "DSP-100",
+    "image": "k10020170315b.jpg",
+    "brief": "Professional Karaoke Mixer ",
+    "rprice": "180.00",
+    "pname": "Professional Digital Mixer",
+    "descrp": {
+        "here": true,
+        "feature": ["erb with stereo inputs and outputs","Easy to read 2 digit LED display", "Compact 1 U rack - mount dimensions"]
+    },
+    "catalog": "202",
+    "speciff": {
+        "here": true,
+        "feature": [{
+                    "name": " Frequency esponse ",
+                    "sval": " MIC : 40HZ ~ 15kHz Music: 20Hz ~ 20kHz  "
+                },
+                {
+                    "name": "  Sensitivity, V RMS ",
+                    "sval": " MIC: 6mv/4k ohm AUX: 280 mv/30 k ohm  "
+                },
+                {
+                    "name": "  THD Distortion (1kHz,-3db, 8ohm )",
+                    "sval": " 0.03%  "
+                },
+                {
+                    "name": "  Echo Cgaracter ",
+                    "sval": " 99 Kinds  "
+                },
+                {
+                    "name": "  Output Level ",
+                    "sval": " 2.8V/1kohm  "
+                },
+                {
+                    "name": " Power Supply ",
+                    "sval": " AC 110 ~ 120V 60Hz  "
+                },
+                {
+                    "name": " Power Consume ",
+                    "sval": " 25W  "
+                },
+                {
+                    "name": " Size ",
+                    "sval": " 482x47x147 mm  "
+                },
+                {
+                    "name": "Weight ",
+                    "sval ":"2.32 KG "} ]},
+                    "note": ""
+                },
+                {
+                    "ptcode": "E11401",
+                    "model": "VSW-41",
+                    "image": "vw41_201701.jpg",
+                    "brief": "AV Selector ",
+                    "rprice": "28.00",
+                    "pname": "MayPro AV  Selector",
+                    "descrp": {
+                        "here": true,
+                        "feature": ["4-input, 1-output Audio-Video Selector  ,", "Half size of mini-type stereo component  ,", "sophisticated black brushed aluminum look  ,", "Gold Plated PIN Jacks  ,", " Input terminal labels provided    ,"]
+                    },
+                    "catalog": "202",
+                    "speciff": {
+                        "here": true,
+                        "feature": [{
+                                "name": " Video In/Out Terminals ",
+                                "sval": " 4-input/1-output(type RCA Pin Jacks)   "
+                            },
+                            {
+                                "name": "  Audio Input/Output ",
+                                "sval": " 4-input/1-Output(type RCA Pin Jacks)   "
+                            },
+                            {
+                                "name": "  Temperature Range ",
+                                "sval": " -10 C ~ +40 C  "
+                            },
+                            {
+                                "name": "   Dimensions ",
+                                "sval": " 167x45x180 mm  "
+                            },
+                            {
+                                "name": "  Weight ",
+                                "sval": " approx. 0.5 Kg   "
+                            }
+                        ]
+                    },
+                    "note": "12x45x87"
+                },
+                {
+                    "ptcode": "E17136",
+                    "model": "CF-407",
+                    "image": "cofull369f.jpg",
+                    "brief": "UHF Wireless Microphone",
+                    "rprice": "600.00",
+                    "pname": "CoFull  UHF Microphone",
+                    "descrp": {
+                        "here": true,
+                        "feature": [" <b>CoFull Professional Wireless Microphone System</b>  ,", " Adopt DPLL digital multi-channel frequency synthesizing technology. ,"]
+                    },
+                    "catalog": "208",
+                    "note": ""
+                },
+                {
+                    "ptcode": "E17187",
+                    "model": "VK-910",
+                    "image": "201608TK980.jpg",
+                    "brief": "KANOO UHF Wireless Microphone",
+                    "rprice": "350.00",
+                    "pname": "KVNOO UHF Microphone",
+                    "descrp": {
+                        "here": true,
+                        "feature": ["<b>UHF Wireless Microphone System</b>  ,", " Employ UHF PLL digital multi - channel frequency synthesizing technology, "," 50 MHz frequency band, per 250 kHz spacing, 200 info channel optional allows avoiding different interferences, " ]},
+                                "catalog": "208",
+                                "speciff": {
+                                    "here": true,
+                                    "feature": [{
+                                                "name": " Frequency Ranges ",
+                                                "sval": "740 ~ 790 MHz "
+                                            },
+                                            {
+                                                "name": "Modulation Mode ",
+                                                "sval ":" Broadband FM "
+                                                },
+                                            {
+                                                "name": "Availble Band ",
+                                                "sval ":" 50 MHz "} ]},
+                                                "note": "The UHF wireless microphone system allows users to get rid of the heavy burden numerous wires and to communicate freely at a reasonable price. All products in this system employ UHF high frequency.Much less interferences than trasitional VHF frequency band. More stable transmission. "
+                                            },
+                                            {
+                                                "ptcode": "E17188",
+                                                "model": "AS-90",
+                                                "image": "20162192as90.jpg",
+                                                "brief": "UHF Wireless Microphone ",
+                                                "rprice": "250.00",
+                                                "pname": "AELELES UHF Wireless Microph",
+                                                "descrp": {
+                                                    "here": true,
+                                                    "feature": ["Aeleles Professional Wireless UHF microphone system ,", " High quality U.S Brand, " ]},
+                                                        "catalog": "208",
+                                                        "speciff": {
+                                                            "here": true,
+                                                            "feature": [{
+                                                                    "name": " Frequency Range : ",
+                                                                    "sval": "730 - 850MHz "
+                                                                },
+                                                                {
+                                                                    "name": " Frequency width: ",
+                                                                    " sval ":"        120 Mz "}, 
+                                                                    {
+                                                                    "name": "    Adjust Mode: ",
+                                                                    " sval ":"          FM "}, 
+                                                                    {
+                                                                    "name": " Max Distortion: ",
+                                                                    " sval ":" + 50 Khz "},
+                                                                     {
+                                                                    "name": "        AF Response: ",
+                                                                    "          sval ":"           40 - 1600 Hz "}, 
+                                                                    {
+                                                                    "name": "       Dynamic Range: ",
+                                                                    "   sval ":"         105 dB "}, 
+                                                                    {
+                                                                    "name": "  THD: ",
+                                                                    "     sval ":" < 05 % (1 @KHz)           "},
+                                                                     {
+                                                                    "name": "               AF processing: ",
+                                                                    "                         sval ":"             Dynamic Compressed and enhanced technology "}, 
+                                                                    {
+                                                                    "name": "                Temp: ",
+                                                                    "              sval ":"                                                    0 c + 50 c "},
+                                                                     {
+                                                                    "name": "        ",
+                                                                    "sval": " "
+                                                                }
+                                                            ]
+                                                        },
+                                                        "note": ""
+                                                    },
+                                                    {
+                                                        "ptcode": "E21010",
+                                                        "model": "KW-310  ",
+                                                        "image": "3Way-10Ktvspeaker.jpg",
+                                                        "brief": "FDB KW-310 a premium full-range speaker special for Karaoke system.",
+                                                        "rprice": "450.00",
+                                                        "pname": "FDB 10 Inch Speaker",
+                                                        "descrp": {
+                                                            "here": true,
+                                                            "feature": ["The KW-310 speaker is designed to use for karaoke balcony. ,", " It features a long-excursion 10inch (250mm)low frequency driver and 2 x 3 inch(75mm) high frequency driver ,", "Precision engineered crossover for optimal power response and performance in the critical mid-range region   ,"]
+                                                        },
+                                                        "catalog": "210",
+                                                        "speciff": {
+                                                            "here": true,
+                                                            "feature": [{
+                                                                    "name": " Frequency Response ",
+                                                                    "sval": " 45 Hz -18K Hz(-3db) ; 40 Hz - 20K Hz (-10db) "
+                                                                },
+                                                                {
+                                                                    "name": " Reated Power ",
+                                                                    "sval": "250W RMS "
+                                                                },
+                                                                {
+                                                                    "name": " Recommed Amplifier ",
+                                                                    "sval": " 150W - 300 W  (4 ohms) "
+                                                                },
+                                                                {
+                                                                    "name": " Sensitivity ",
+                                                                    "sval": " 92db 1 Watt/metre "
+                                                                },
+                                                                {
+                                                                    "name": " Impendance ",
+                                                                    "sval": " 8 ohms nominal "
+                                                                },
+                                                                {
+                                                                    "name": " Cross over ",
+                                                                    "sval": " 1.5 kHz passiEnclosure  "
+                                                                },
+                                                                {
+                                                                    "name": " Finish ",
+                                                                    "sval": " Black Paint "
+                                                                },
+                                                                {
+                                                                    "name": " Protective Grille ",
+                                                                    "sval": " Black perforated steel "
+                                                                },
+                                                                {
+                                                                    "name": " Fittings ",
+                                                                    "sval": " 2 x M8 insert wall bracket "
+                                                                },
+                                                                {
+                                                                    "name": " Dimensions ",
+                                                                    "sval": " 508mmx 200mmx271mm  "
+                                                                },
+                                                                {
+                                                                    "name": " Weight ",
+                                                                    "sval": " 10.5Kg   "
+                                                                }
+                                                            ]
+                                                        },
+                                                        "ntimg": ["fdb20201114kw310b.jpg"],
+                                                        "note": "E21010XMfdb20201114kw310b.jpgXM12"
+                                                    },
+                                                    {
+                                                        "ptcode": "E21038",
+                                                        "model": "AL-305V",
+                                                        "image": "20162192aL305.jpg",
+                                                        "brief": "Karaoke Speaker 10 inch ",
+                                                        "rprice": "550.00",
+                                                        "pname": "AElELES 10 inch Speaker",
+                                                        "descrp": {
+                                                            "here": false
+                                                        },
+                                                        "catalog": "210",
+                                                        "note": ""
+                                                    },
+                                                    {
+                                                        "ptcode": "E23008",
+                                                        "model": "KV-V5",
+                                                        "image": "1d02Ekv-v5max29F20.jpg",
+                                                        "brief": "InAndon Karaoke Player ,4T HDD with 98K songs, huge cloud songs download. Newest model (KV-V5 Pro + 4TB HDD )",
+                                                        "rprice": "720.00",
+                                                        "pname": "InAndon Karaoke Player ",
+                                                        "descrp": {
+                                                            "here": true,
+                                                            "feature": ["This product is a Hi-Tech computer base multimedia machine. It is a professional karaoke entertainment device ,", "High Definition 4K Output ,", "Built-in wifi,With Chinese Cantonese Taiwanese English vietnamese Songs ,", "Play sources from USB, including formats such as DVD,VCD,CD and so on, and brings you into the excellent experience of video playing ,", "Songs from Cloud with a huge song Database ,", "Package Includes: KV-V5 Pro karaoke player,power adpter 12V/2A Audio/Video RCA Cable, user operate guide ,"]
+                                                        },
+                                                        "catalog": "206",
+                                                        "speciff": {
+                                                            "here": true,
+                                                            "feature": [{
+                                                                    "name": " Video output port",
+                                                                    "sval": "HDMI "
+                                                                },
+                                                                {
+                                                                    "name": " Audio port",
+                                                                    "sval": "1(RL channels) "
+                                                                },
+                                                                {
+                                                                    "name": " Coaxial outpot",
+                                                                    "sval": "1 "
+                                                                },
+                                                                {
+                                                                    "name": " Optical output",
+                                                                    "sval": "1 "
+                                                                },
+                                                                {
+                                                                    "name": " Recording port",
+                                                                    "sval": "1 "
+                                                                },
+                                                                {
+                                                                    "name": " Touch screen RJ45 port",
+                                                                    "sval": "1 "
+                                                                },
+                                                                {
+                                                                    "name": " Network RJ45 port",
+                                                                    "sval": "1VGA port "
+                                                                },
+                                                                {
+                                                                    "name": " USB port",
+                                                                    "sval": "3 (Panel USB*1,backpanel USB*2) "
+                                                                },
+                                                                {
+                                                                    "name": " Analog sound output",
+                                                                    "sval": "Stero R/L 1 K Ohm 20HZ-20KHZ "
+                                                                },
+                                                                {
+                                                                    "name": " VGA Output",
+                                                                    "sval": "RGB 75 Ohm Monitor "
+                                                                },
+                                                                {
+                                                                    "name": " Input voltage",
+                                                                    "sval": "DC 12V "
+                                                                },
+                                                                {
+                                                                    "name": " Rated power",
+                                                                    "sval": "30W(4A) "
+                                                                },
+                                                                {
+                                                                    "name": " Size",
+                                                                    "sval": "400*250*170(mm) "
+                                                                },
+                                                                {
+                                                                    "name": " Weight",
+                                                                    "sval": "5KG   "
+                                                                }
+                                                            ]
+                                                        },
+                                                        "ntimg": ["1d023KV-v529C20.jpg", "1d028KV-v529D20.jpg", "1d013kv-v5s28720.jpg", "1d02Hkv-v5max29K20.jpg"],
+                                                        "note": "495x400x152XM1d023KV-v529C20.jpgXM1d028KV-v529D20.jpgXM1d013kv-v5s28720.jpgXM1d02Hkv-v5max29K20.jpgXMKV12"
+                                                    },
+                                                    {
+                                                        "ptcode": "E23019",
+                                                        "model": "TG-215B",
+                                                        "image": "Tg215.jpg",
+                                                        "brief": "Capacitive Touch Screen using for InAndon Karaoke Player,22 inch",
+                                                        "rprice": "380.00",
+                                                        "pname": "Touch Screen LCD 22 inch ",
+                                                        "descrp": {
+                                                            "here": false
+                                                        },
+                                                        "catalog": "206",
+                                                        "note": ""
+                                                    },
+                                                    {
+                                                        "ptcode": "E23024",
+                                                        "model": "KV-815X5",
+                                                        "image": "1d27Hkv-815X5MAX33J20.jpg",
+                                                        "brief": " InAndon KV-V5Pro All In One Karaoke  Player with 4T HDD 90K Songs Build in, HI Fine 18.5 Inch Touch Screen, Cloud Song Download, including Huge Chinese, English, Vietnamese songs ",
+                                                        "rprice": "868.00",
+                                                        "pname": "InAndon KOD w.  18.5inch  LC",
+                                                        "descrp": {
+                                                            "here": true,
+                                                            "feature": ["This karaoke player is a Hi-Tech computer base multimedia machine ,", " Play sources from USB, including formats such as DVD,VCD,CD and so on ,", "18.5 inch Touch Screen LCD Monitor ,", "mobile phone order songs and voice control to order songs ,"]
+                                                        },
+                                                        "catalog": "206",
+                                                        "speciff": {
+                                                            "here": true,
+                                                            "feature": [{
+                                                                    "name": " Video output port",
+                                                                    "sval": "HDMI "
+                                                                },
+                                                                {
+                                                                    "name": " Audio port",
+                                                                    "sval": "1(RL channels) "
+                                                                },
+                                                                {
+                                                                    "name": " Coaxial outpot",
+                                                                    "sval": "1 "
+                                                                },
+                                                                {
+                                                                    "name": " Optical output",
+                                                                    "sval": "1 "
+                                                                },
+                                                                {
+                                                                    "name": " Recording port",
+                                                                    "sval": "1 "
+                                                                },
+                                                                {
+                                                                    "name": " Touch screen RJ45 port",
+                                                                    "sval": "1 "
+                                                                },
+                                                                {
+                                                                    "name": " Network RJ45 port",
+                                                                    "sval": "1VGA port "
+                                                                },
+                                                                {
+                                                                    "name": " USB port",
+                                                                    "sval": "3 (Panel USB*1,backpanel USB*2) "
+                                                                },
+                                                                {
+                                                                    "name": " Analog sound output",
+                                                                    "sval": "Stero R/L 1 K Ohm 20HZ-20KHZ "
+                                                                },
+                                                                {
+                                                                    "name": " VGA Output",
+                                                                    "sval": "RGB 75 Ohm Monitor "
+                                                                },
+                                                                {
+                                                                    "name": " Input voltage",
+                                                                    "sval": "DC 12V "
+                                                                },
+                                                                {
+                                                                    "name": " Rated power",
+                                                                    "sval": "30W(4A) "
+                                                                },
+                                                                {
+                                                                    "name": " Size",
+                                                                    "sval": "400*250*170(mm) "
+                                                                },
+                                                                {
+                                                                    "name": " Weight",
+                                                                    "sval": "5KG   "
+                                                                }
+                                                            ]
+                                                        },
+                                                        "ntimg": ["1d028KV-v529D20.jpg", "1d02BKV-v5p29E20.jpg"],
+                                                        "note": "opt52XM1d028KV-v529D20.jpgXM1d02BKV-v5p29E20.jpgXMV12"
+                                                    },
+                                                    {
+                                                        "ptcode": "E23026",
+                                                        "model": "KV-X505",
+                                                        "image": "X505-20199925.png",
+                                                        "brief": "InAndon KOD Karaoke Player with 15.6 inch touch screen, KV-V3Pro build in 4T/2TB HDD, Cloud Songs Download",
+                                                        "rprice": "650.00",
+                                                        "pname": "InAndOn KOD w.LCD",
+                                                        "descrp": {
+                                                            "here": true,
+                                                            "feature": ["Support many video and audio formats, such as DVD, VCD, MPEG4, MP3 and DIVX, etc.  ,",
+                                                                 "            The mouse, control panel and small keyboard could be connected from the outer of the player., ",
+                                                                 "    SupporttheOTGfunction(optional), which is free to change thedatabasebyUSBequipmentwithoutcomputer., ",
+                                                                 "        Add the                 function to play the appointed advertisement instead of playing randomly., ",
+                                                                 "            You can interpose time - lock managing                           function, coming into effect to control the work time of the machine., ",
+                                                                 "        Add password setting               function to control the start and operation of the multimedia player, ",
+                                                                 "             Current streamline appearance being designed, leading fashionable current of KTV;Support the touch., ",
+                                                                "     Support the             function of animated cartoon with sound, make interactive effect in time, such as applause, catcall, fresh flower, providing the peerless Karaoke atmosphere   for the guests., ",
+                                                                "  Add a  unction of setting the sound effect and equalizer.There are 8 sound effect modes could meet different customers� like.                   New menu interface which could                               switch, fine design, and strong.Vision effect., " ]},
+                                                                "catalog": "206",
+                                                                "speciff": {
+                                                                    "here": true,
+                                                                    "feature": [{
+                                                                        "name": "ghf",
+                                                                        "sval": " "
+                                                                    }]
+                                                                },
+                                                                "note": ""
+                                                            },
+                                                            {
+                                                                "ptcode": "E23153",
+                                                                "model": "KV-V3",
+                                                                "image": "20180KV-V3.jpg",
+                                                                "brief": "InAndon Karaoke Player KV-V3Pro with 4T HDD, Cloud Songs Download",
+                                                                "rprice": "450.00",
+                                                                "pname": "InAndon Karaoke Player ",
+                                                                "descrp": {
+                                                                    "here": true,
+                                                                    "feature": ["This product is a Hi-Tech computer base multimedia machine. It is a professional karaoke entertainment device ,", "It has a powerful and rich film function which support 4K movie ,", "Play sources from USB, including formats such as DVD,VCD,CD and so on, and brings you into the excellent experience of video playing   ,"]
+                                                                },
+                                                                "catalog": "206",
+                                                                "speciff": {
+                                                                    "here": true,
+                                                                    "feature": [{
+                                                                            "name": " Video output port",
+                                                                            "sval": "HDMI "
+                                                                        },
+                                                                        {
+                                                                            "name": " Audio port",
+                                                                            "sval": "1(RL channels) "
+                                                                        },
+                                                                        {
+                                                                            "name": " Coaxial outpot",
+                                                                            "sval": "1 "
+                                                                        },
+                                                                        {
+                                                                            "name": " Optical output",
+                                                                            "sval": "1 "
+                                                                        },
+                                                                        {
+                                                                            "name": " Recording port",
+                                                                            "sval": "1 "
+                                                                        },
+                                                                        {
+                                                                            "name": " Touch screen RJ45 port",
+                                                                            "sval": "1 "
+                                                                        },
+                                                                        {
+                                                                            "name": " Network RJ45 port",
+                                                                            "sval": "1VGA port "
+                                                                        },
+                                                                        {
+                                                                            "name": " USB port",
+                                                                            "sval": "3 (Panel USB*1,backpanel USB*2) "
+                                                                        },
+                                                                        {
+                                                                            "name": " Analog sound output",
+                                                                            "sval": "Stero R/L 1 Kohm 20HZ-20KHZ "
+                                                                        },
+                                                                        {
+                                                                            "name": " VGA Output",
+                                                                            "sval": "RGB 75ohm Monitor "
+                                                                        },
+                                                                        {
+                                                                            "name": " Input voltage",
+                                                                            "sval": "DC 12V "
+                                                                        },
+                                                                        {
+                                                                            "name": " Rated power",
+                                                                            "sval": "30W(4A) "
+                                                                        },
+                                                                        {
+                                                                            "name": " Size",
+                                                                            "sval": "400*250*170(mm) "
+                                                                        },
+                                                                        {
+                                                                            "name": " Weight",
+                                                                            "sval": "5KG "
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "ntimg": ["1d02Gke-v3p29H20.png", "1d01Bkv-v3h28C20.jpg", "1d02Fke-v3p29G20.jpg"],
+                                                                "note": "325x95x470 <img>XM1d02Gke-v3p29H20.pngXM1d01Bkv-v3h28C20.jpgXM1d02Fke-v3p29G20.jpgXM123"
+                                                            },
+                                                            {
+                                                                "ptcode": "E43227",
+                                                                "model": "ASM-001",
+                                                                "image": "s502-20170315.jpg",
+                                                                "brief": "Speaker Stand",
+                                                                "rprice": "60.00",
+                                                                "pname": "Speaker  Stand",
+                                                                "descrp": {
+                                                                    "here": true,
+                                                                    "feature": ["<b>PROFESSIONAL HEAVY DUTY SPEAKER STANDS (PAIR)</b> ,",
+                                                                         "         Comes with 2 Speaker Stands, ",
+                                                                         "                           Suits Speaker Cabinets with 35 mm diameter pole mount socket, ",
+                                                                         "                                     Maximum load typically 40 kg, ",
+                                                                         "                    Non - slip rubber feet on all tripod legs, ",
+                                                                         "                         Steel stopper - rod to insert into extension shaft to prevent slip, " ]},
+                                                                            "catalog": "241",
+                                                                            "speciff": {
+                                                                                "here": true,
+                                                                                "feature": [{
+                                                                                        "name": " Height Adjustment",
+                                                                                        "sval": "1.1m to 1.85m "}, 
+                                                                                        {
+                                                                                        "name": " Maximum Load (typically)",
+                                                                                        "sval": "40kg  Net Weight "
+                                                                                    }, 
+                                                                                        {
+                                                                                        "name": "              Gross Weight ",
+                                                                                        " sval ":"                           6.5 kg "},
+                                                                                         {
+                                                                                        "name": "                          Dimensions(W x D x H)                               ",
+                                                                                        "      sval ":"                             Folded up 130 x 130 x 1030 mm "},
+                                                                                         {
+                                                                                        "name": " xx",
+                                                                                        "sval": "djj" } ]
+                                                                                    },
+                                                                                        "note": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "ptcode": "H23152",
+                                                                                        "model": "KV-15X3-d42",
+                                                                                        "image": "1d01FKV-X38G20.jpg",
+                                                                                        "brief": "InAndon KOD Karaoke Player with 15.6 inch touch screen, KV-V3Pro build in 4T/2TB  HDD, Cloud Songs Download",
+                                                                                        "rprice": "0.00",
+                                                                                        "pname": "InAndon All in one KOD ",
+                                                                                        "descrp": {
+                                                                                            "here": true,
+                                                                                            "feature": ["This product is a Hi-Tech computer base multimedia machine. It is a professional karaoke entertainment device ,", "High Definition 4K HDMI Output ,", "Built-in wifi,With Chinese Cantonese Taiwanese English vietnamese Songs ,", "Play sources from USB, including formats such as DVD,VCD,CD and so on, and brings you into the excellent experience of video playing ,", "download songs from Cloud with a huge song Database ,"]
+                                                                                        },
+                                                                                        "catalog": "265",
+                                                                                        "ntimg": ["1d021KV-X329A2020.jpg"],
+                                                                                        "note": "E23033XAE51812XB12XM1d021KV-X329A2020.jpgXM21"
+                                                                                    },
+                                                                                    {
+                                                                                        "ptcode": "H23319",
+                                                                                        "model": "KV-215W-d4",
+                                                                                        "image": "1d015kv220v5s28920.jpg",
+                                                                                        "brief": "InAndon KV-V5Pro All In One Karaoke Player with 4T HDD 90K Songs Build in, HI Fine 22 Inch Touch Screen, Cloud Song Download",
+                                                                                        "rprice": "830.00",
+                                                                                        "pname": "InAndOn KOD w.LCD",
+                                                                                        "descrp": {
+                                                                                            "here": true,
+                                                                                            "feature": ["This karaoke player is a Hi-Tech computer base multimedia machine ,", "Play sources from USB, including formats such as DVD,VCD,CD and so on ,", "21.5 inch Touch Screen LCD Monitor ,", "mobile phone order songs and voice control to order ,", "Built-in wifi,With Chinese Cantonese Taiwanese English vietnamese Songs ,"]
+                                                                                        },
+                                                                                        "catalog": "265",
+                                                                                        "note": "E23305XAE51848XAE23043XB33"
+                                                                                    },
+                                                                                    {
+                                                                                        "ptcode": "H23322",
+                                                                                        "model": "T-300BW-r5",
+                                                                                        "image": "1d019t300bw28A20.jpg",
+                                                                                        "brief": "22 Inch Capacitive Touch Screen using for InAndon Karaoke Player",
+                                                                                        "rprice": "320.00",
+                                                                                        "pname": "Touch Screen 22 Inch ",
+                                                                                        "descrp": {
+                                                                                            "here": false
+                                                                                        },
+                                                                                        "catalog": "265",
+                                                                                        "note": "E23089XAE23043XB12"
+                                                                                    },
+                                                                                    {
+                                                                                        "ptcode": "H26026",
+                                                                                        "model": "KV-185X-V3-d4",
+                                                                                        "image": "1d26Ekv-815v3pro32G20.jpg",
+                                                                                        "brief": "InAndon KOD Karaoke Player with 18.5 inch touch screen, KV-V3Pro build in 4T HDD, Cloud Songs Download",
+                                                                                        "rprice": "760.00",
+                                                                                        "pname": "InAndon All inOne Kod Player",
+                                                                                        "descrp": {
+                                                                                            "here": true,
+                                                                                            "feature": ["user can change system language on your own, there are simply Chinese(by default) Traditional Chinese English Japanese Korean ,", "This machine has powerful land rich film function, with support 4K movies and using external hard driver to play movie  ,"]
+                                                                                        },
+                                                                                        "catalog": "265",
+                                                                                        "speciff": {
+                                                                                            "here": true,
+                                                                                            "feature": [{
+                                                                                                    "name": " Video output port",
+                                                                                                    "sval": "HDMI "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Audio port",
+                                                                                                    "sval": "1(RL channels) "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Coaxial outpot",
+                                                                                                    "sval": "1 "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Optical output",
+                                                                                                    "sval": "1 "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Recording port",
+                                                                                                    "sval": "1 "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Touch screen RJ45 port",
+                                                                                                    "sval": "1 "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Network RJ45 port",
+                                                                                                    "sval": "1VGA port "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " USB port",
+                                                                                                    "sval": "3 (Panel USB*1,backpanel USB*2) "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Analog sound output",
+                                                                                                    "sval": "Stero R/L 1 Kohm 20HZ-20KHZ "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " VGA Output",
+                                                                                                    "sval": "RGB 75ohm Monitor "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Input voltage",
+                                                                                                    "sval": "DC 12V "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Rated power",
+                                                                                                    "sval": "30W(4A) "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Size",
+                                                                                                    "sval": "400*250*170(mm) "
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": " Weight",
+                                                                                                    "sval": "5KG "
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        "note": ""
+                                                                                    }
+                                                                                ]
